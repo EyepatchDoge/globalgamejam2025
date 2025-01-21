@@ -37,5 +37,4 @@ public class Bubble : MonoBehaviour
         bubble.SetActive(true); // Reactivate the bubble GameObject after the delay
     }
 
-
 }
