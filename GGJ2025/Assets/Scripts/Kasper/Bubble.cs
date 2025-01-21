@@ -6,6 +6,9 @@ public class Bubble : MonoBehaviour
     [SerializeField]
     FuelSystem fuelSystem;
 
+    [SerializeField]
+    float fuelAmount = 25f;
+
     void OnTriggerEnter(Collider other)
     {
        
@@ -13,6 +16,7 @@ public class Bubble : MonoBehaviour
         if (other.CompareTag("Bubble"))
         {
             Debug.Log("a bubble!");
+            fuelSystem.AddFuel(fuelAmount);
         }
 
         else

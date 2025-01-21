@@ -33,6 +33,9 @@ public class PlayerShip : MonoBehaviour
     FuelSystem fuelSystem;
 
     [SerializeField]
+    GameObject gameOverPanel;
+
+    [SerializeField]
     bool rotationUsesFuel;
 
     private void Start()
@@ -79,6 +82,11 @@ public class PlayerShip : MonoBehaviour
             {
                 fuelRateTimer += Time.fixedDeltaTime;
             }
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+            gameOverPanel.SetActive(true);
         }
 
 
