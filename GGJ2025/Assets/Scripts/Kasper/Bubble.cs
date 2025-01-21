@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Bubble : MonoBehaviour
 {
+
+    [SerializeField]
+    FuelSystem fuelSystem;
+
     void OnTriggerEnter(Collider other)
     {
        

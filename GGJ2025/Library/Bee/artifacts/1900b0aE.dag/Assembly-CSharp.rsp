@@ -426,6 +426,7 @@
 "Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs"
 "Assets/Scripts/Kasper/Bubble.cs"
 "Assets/Scripts/Kasper/EndingTriggerArea.cs"
+"Assets/Scripts/Kasper/FuelSystem.cs"
 "Assets/Scripts/Kasper/PlayerShip.cs"
 "Assets/Scripts/Kasper/SceneManagement.cs"
 "Assets/Scripts/Kasper/VolumeSettings.cs"
