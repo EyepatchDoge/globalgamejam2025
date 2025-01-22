@@ -15,7 +15,7 @@ C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57113
+62322
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31364]  Target information:
+Player connection [30256]  Target information:
 
-Player connection [31364]  * "[IP] 10.0.0.69 [Port] 0 [Flags] 2 [Guid] 4050904973 [EditorId] 4050904973 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30256]  * "[IP] 10.0.0.69 [Port] 0 [Flags] 2 [Guid] 2895292134 [EditorId] 2895292134 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31364] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31364] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30256] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001960 seconds.
-- Loaded All Assemblies, in  0.298 seconds
+Registered in 0.002079 seconds.
+- Loaded All Assemblies, in  0.257 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 547ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.228 seconds
+Domain Reload Profiling: 485ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (104ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (250ms)
+	FinalizeReload (229ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (218ms)
+		SetupLoadedEditorAssemblies (199ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,121 +139,81 @@ Domain Reload Profiling: 547ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.587 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.528 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.575 seconds
-Domain Reload Profiling: 1160ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1058ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (404ms)
-		LoadAssemblies (277ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (236ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (121ms)
-			BuildScriptInfoCaches (53ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (50ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (575ms)
+	FinalizeReload (533ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
+		SetupLoadedEditorAssemblies (428ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5959 unused Assets / (4.2 MB). Loaded Objects now: 6660.
-Memory consumption went from 166.5 MB to 162.3 MB.
-Total: 8.672200 ms (FindLiveObjects: 0.558700 ms CreateObjectMapping: 0.511900 ms MarkObjects: 5.063200 ms  DeleteObjects: 2.536700 ms)
+Unloading 5959 unused Assets / (3.8 MB). Loaded Objects now: 6660.
+Memory consumption went from 166.7 MB to 162.8 MB.
+Total: 4.890700 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.015700 ms  DeleteObjects: 1.297100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 244590.452183 seconds.
-  path: Assets/Art
-  artifactKey: Guid(0971432a42f906c47a6cb0f127be8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(0971432a42f906c47a6cb0f127be8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06aa6084f41969ccd37dab9faace2d99') in 0.0066147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 255472.413942 seconds.
+  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_Body_Head_BaseMap.png
+  artifactKey: Guid(b4efb7617dbdf014b9f882318523dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_Body_Head_BaseMap.png using Guid(b4efb7617dbdf014b9f882318523dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41650b23262b85dff5ee278b0182d9be') in 0.0700686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3f70f0364ded6a0e35bba7f5564b43') in 0.0175863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0022539 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_MaskMap.png
+  artifactKey: Guid(456735f41ee9893439bc13163823d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_MaskMap.png using Guid(456735f41ee9893439bc13163823d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fce5bfce33c17fb796e636add3395d1f') in 0.027101 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Art/Skybox.mat
-  artifactKey: Guid(07e246769453f8543a580ac4df15613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Skybox.mat using Guid(07e246769453f8543a580ac4df15613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda054983e15a63174953b711ccc08d6') in 0.4238704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.784833 seconds.
-  path: Assets/Art/Andy
-  artifactKey: Guid(7aea12ee004bd5c4daeb57db27c04143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy using Guid(7aea12ee004bd5c4daeb57db27c04143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a760d7a3ed5a92022d8dad122e6d1851') in 0.0005068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.883151 seconds.
-  path: Assets/Art/Andy/Turtle_Robot.fbx
-  artifactKey: Guid(c3b511915b033ab408e7ad4240dc826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot.fbx using Guid(c3b511915b033ab408e7ad4240dc826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '266fde20b7d99db9c9470c1a73fe1fe1') in 1.6830407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.322704 seconds.
-  path: Assets/Art/Andy/Textures
-  artifactKey: Guid(b46f0ebf7570cfc4f82a653ec30cc0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Textures using Guid(b46f0ebf7570cfc4f82a653ec30cc0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '960471a60e61de4e1c7fee413d046a98') in 0.0009141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039251 seconds.
-  path: Assets/Art/Andy/Textures/Turtle_Robot_standardSurface1_BaseMap.png
-  artifactKey: Guid(e0ac2891bdbbcf848bd6c2876b4e0427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Textures/Turtle_Robot_standardSurface1_BaseMap.png using Guid(e0ac2891bdbbcf848bd6c2876b4e0427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a76d1fbdbcee5f84595d1127d468f837') in 0.0421956 seconds
+  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_BaseMap.png
+  artifactKey: Guid(1d2425e1d48343b42a4dd954e0591c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_BaseMap.png using Guid(1d2425e1d48343b42a4dd954e0591c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2070eaf8eda5595cfb495b47ac267d31') in 0.020308 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.255046 seconds.
-  path: Assets/Art/Andy/Turtle_Robot
-  artifactKey: Guid(491c77fa4dfe8c8409aacf7ca9bc349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot using Guid(491c77fa4dfe8c8409aacf7ca9bc349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fcf0e4614c552a8587542920600595f') in 0.00069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 6.402609 seconds.
+  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png
+  artifactKey: Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png using Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d095a958f23c9a56960c635b563fbf2') in 0.0197482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
