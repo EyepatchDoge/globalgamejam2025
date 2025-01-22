@@ -35,7 +35,7 @@ public class FuelSystem : MonoBehaviour
 
     public void UpdateFuel()
     {
-        fuelDisplay.text = "Fuel Left:" + currentFuel.ToString();
+        fuelDisplay.text = "Fuel Left: " + currentFuel.ToString("F2") + "Litres";
         fuelslider.value = currentFuel/maxFuel;
     }
 

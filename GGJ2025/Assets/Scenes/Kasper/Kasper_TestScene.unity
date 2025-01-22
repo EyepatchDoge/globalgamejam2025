@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 18b6bf7c06173654ead94eda5ab1abee, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2383f1ce159f86f4d99cfd198f19a8e2, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2106,11 +2106,15 @@ MonoBehaviour:
   speedMult: 0.8
   SpeedMultAngle: 0.1
   speedRollMultAngle: 0.05
-  fuelConsumptionAmount: 5
-  fuelConsumptionRate: 1
+  fuelConsumptionAmount: 0.3
+  fuelConsumptionRate: 0.05
   fuelSystem: {fileID: 1946036081}
-  gameOverPanel: {fileID: 69659844}
   rotationUsesFuel: 0
+  postProcessingVolume: {fileID: 1296596093}
+  globalVolume: {fileID: 0}
+  shipVelocity: 0
+  velocityMax: 25
+  gameOverPanel: {fileID: 69659844}
 --- !u!114 &1087982873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3131,8 +3135,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 77, y: 187}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 186.22867, y: -197}
+  m_SizeDelta: {x: 418.4573, y: 72.8688}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455551961
 MonoBehaviour:
@@ -3181,8 +3185,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 57.5
+  m_fontSizeBase: 57.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3219,7 +3223,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -58.789795, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.41412354, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4624,8 +4628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383033c3282cb7d458510d8ab653368c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentFuel: 100
-  maxFuel: 100
+  currentFuel: 200
+  maxFuel: 200
   fuelDisplay: {fileID: 1455551961}
   fuelslider: {fileID: 303830532}
   redOverlay: {fileID: 1325370203}

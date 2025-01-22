@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerShip : MonoBehaviour
 {
@@ -25,27 +28,65 @@ public class PlayerShip : MonoBehaviour
     float fuelConsumptionAmount = 5f;
     [SerializeField]
     float fuelConsumptionRate = 1.0f;
-
-
+    
+    //fuel related references
     float fuelRateTimer = 1.0f;
-
     [SerializeField]
     FuelSystem fuelSystem;
-
-    [SerializeField]
-    GameObject gameOverPanel;
-
     [SerializeField]
     bool rotationUsesFuel;
 
-    private void Start()
+    //chromaticaboration
+    public Volume postProcessingVolume;
+    public ChromaticAberration globalVolume;
+
+    public float shipVelocity;
+    public float velocityMax = 1;
+
+    [SerializeField]
+    GameObject gameOverPanel;
+    bool isReady;
+
+
+
+    private void Awake()
     {
-        Cursor.lockState = CursorLockMode.Locked;
         shipRB = GetComponent<Rigidbody>();
+
+        shipRB.linearVelocity = Vector3.zero;
+        shipRB.angularVelocity = Vector3.zero;
+    }
+
+    private async void Start()
+    {
+        await Task.Delay(1000);
+        isReady = true;
+        Cursor.lockState = CursorLockMode.Locked;
+
+       if( postProcessingVolume.profile.TryGet(out ChromaticAberration chromaticAberration))
+        {
+            globalVolume = chromaticAberration;
+        }
+        else
+        {
+            Debug.Log("missing");
+        }
+
     }
 
     void Update()
     {
+       if(!isReady) return;
+
+        float linearSpeed = shipRB.linearVelocity.magnitude;
+        float angularSpeed = shipRB.angularVelocity.magnitude;
+
+        shipVelocity = (1f * linearSpeed) + (0.5f * angularSpeed);
+
+        float abberationpercent = GetVelocityPercent();
+        float abberationIntensity = Mathf.Lerp(0, abberationpercent, 1);
+        globalVolume.intensity.value = abberationIntensity;
+
         verticalMove = Input.GetAxis("Vertical");
         horizontalMove = Input.GetAxis("Horizontal");
         rollInput = Input.GetAxis("Roll");
@@ -57,6 +98,8 @@ public class PlayerShip : MonoBehaviour
     //this function should only have physics/rigidbody code in here, avoid putting inputs here
     void FixedUpdate()
     {
+        if(!isReady) return;
+
         if(fuelSystem.currentFuel > 0)
         {
             shipRB.AddForce(shipRB.transform.TransformDirection(Vector3.forward) * verticalMove * speedMult, ForceMode.VelocityChange);
@@ -119,6 +162,11 @@ public class PlayerShip : MonoBehaviour
     {
         return (value > 0.1 || value < -0.1);
         
+    }
+
+    float GetVelocityPercent()
+    {
+        return Mathf.InverseLerp(0, velocityMax , shipVelocity);
     }
 
 }
