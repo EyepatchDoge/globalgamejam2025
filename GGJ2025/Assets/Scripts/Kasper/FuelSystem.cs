@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Rendering;
 
 public class FuelSystem : MonoBehaviour
 {
@@ -13,10 +14,23 @@ public class FuelSystem : MonoBehaviour
     public TextMeshProUGUI fuelDisplay;
     public Slider fuelslider;
 
+    
+    public Volume redOverlay;
+    public float redVolumeMaxIntensity = 0.5f;
+
+    public AnimationCurve redOverlayCurve;
+
     private void Start()
     {
         UpdateFuel();
 
+    }
+
+    private void Update()
+    {
+        float fuelpercentage = GetFuelAsPercentage();
+        float volumeIntensity = redOverlayCurve.Evaluate(fuelpercentage);
+        redOverlay.weight = volumeIntensity;
     }
 
     public void UpdateFuel()
@@ -36,4 +50,10 @@ public class FuelSystem : MonoBehaviour
         currentFuel = Mathf.Min(currentFuel + amount, maxFuel);
         UpdateFuel() ;
     }
+
+    float GetFuelAsPercentage()
+    {
+        return Mathf.InverseLerp(0, maxFuel, currentFuel);
+    }
+
 }

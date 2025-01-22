@@ -15,7 +15,7 @@ C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51203
+55637
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [416]  Target information:
+Player connection [27248]  Target information:
 
-Player connection [416]  * "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 1713449596 [EditorId] 1713449596 [Version] 1048832 [Id] WindowsEditor(7,Kasper-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27248]  * "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 2805380281 [EditorId] 2805380281 [Version] 1048832 [Id] WindowsEditor(7,Kasper-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [416] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27248] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +92,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002804 seconds.
-- Loaded All Assemblies, in  0.493 seconds
+Registered in 0.002013 seconds.
+- Loaded All Assemblies, in  0.446 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.304 seconds
-Domain Reload Profiling: 795ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 841ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (193ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (184ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (173ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (144ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (304ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (397ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
+		SetupLoadedEditorAssemblies (355ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,138 +137,796 @@ Domain Reload Profiling: 795ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025D8906E730 doesn't match image C:\Users\kaspo\Documents\GitHub\globalgamejam2025\GGJ2025\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001F582AD09A0 doesn't match image C:\Users\kaspo\Documents\GitHub\globalgamejam2025\GGJ2025\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.715 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Symbol file data-000001F582AD09A0 doesn't match image C:\Users\kaspo\Documents\GitHub\globalgamejam2025\GGJ2025\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1373ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1390ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
+		CreateAndSetChildDomain (32ms)
 	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (504ms)
-		LoadAssemblies (366ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (304ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (135ms)
-			BuildScriptInfoCaches (53ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (54ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (662ms)
+	FinalizeReload (713ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (512ms)
+		SetupLoadedEditorAssemblies (568ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5945 unused Assets / (7.0 MB). Loaded Objects now: 6599.
-Memory consumption went from 162.8 MB to 155.7 MB.
-Total: 8.843700 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.533600 ms MarkObjects: 4.439400 ms  DeleteObjects: 3.322700 ms)
+Unloading 5945 unused Assets / (7.6 MB). Loaded Objects now: 6599.
+Memory consumption went from 166.6 MB to 159.0 MB.
+Total: 9.188500 ms (FindLiveObjects: 0.500300 ms CreateObjectMapping: 0.503500 ms MarkObjects: 4.469300 ms  DeleteObjects: 3.714000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 593405.955974 seconds.
-  path: Assets/Art/Bubble.fbx
-  artifactKey: Guid(4d96b91cfbba19044a4d3d3b0d26f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Bubble.fbx using Guid(4d96b91cfbba19044a4d3d3b0d26f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7baa9569352d8e8e55bad067d004cc08') in 2.1845642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 595951.084578 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g57.png
+  artifactKey: Guid(e77d3b2c0b7135746a2c4123227b3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g57.png using Guid(e77d3b2c0b7135746a2c4123227b3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9264a51ab0761b19798ca973558d602') in 0.0568733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.736998 seconds.
-  path: Assets/Prefabs/Bubble.prefab
-  artifactKey: Guid(89ba98aed63afe346ba751fcb6c9e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bubble.prefab using Guid(89ba98aed63afe346ba751fcb6c9e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fefc5970a7f6e17935aea55247e65cd') in 0.0166593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path182.png
+  artifactKey: Guid(28423ff0691accc489cd6409fffabc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path182.png using Guid(28423ff0691accc489cd6409fffabc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4700b17eea3d7336c12e230ef1426939') in 0.0125483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.880245 seconds.
-  path: Assets/2D Art Assets/UI PACK
-  artifactKey: Guid(64875a2fc001ca74aa98fa4b15a84d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art Assets/UI PACK using Guid(64875a2fc001ca74aa98fa4b15a84d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc340cd1efa9747f96113f9272b659d') in 0.000538 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g13.png
+  artifactKey: Guid(8fe7672007851c64c9903a480637b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g13.png using Guid(8fe7672007851c64c9903a480637b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '018796dff30dd4e99ed34dfd3e433cc8') in 0.0151157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g22.png
+  artifactKey: Guid(e2a94bb7c7eb5b345aa1bb2d608ba86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g22.png using Guid(e2a94bb7c7eb5b345aa1bb2d608ba86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e66fef48f657d86cb8740ea25358357') in 0.0136502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g119.png
+  artifactKey: Guid(e07c74f79bd2a5c4a82d88899bee8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g119.png using Guid(e07c74f79bd2a5c4a82d88899bee8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31e2e0be2086232fcecc78bf31f9df94') in 0.0133122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_By_VerzatileDev.png
+  artifactKey: Guid(8242f9d59f5e64e48873b9cdc61132e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_By_VerzatileDev.png using Guid(8242f9d59f5e64e48873b9cdc61132e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b53d0218efee3815ca9c9d9153f17498') in 0.0195141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path66-6.png
+  artifactKey: Guid(3c915d3860ba6b64fb26987cda0c22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path66-6.png using Guid(3c915d3860ba6b64fb26987cda0c22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '535747c7950453518f90ed642a6e89f5') in 0.0130658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path175.png
+  artifactKey: Guid(8fbf5d48069012047867393048a26c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path175.png using Guid(8fbf5d48069012047867393048a26c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb9db4918d312430ef022b250164cf0') in 0.0124372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path72.png
+  artifactKey: Guid(db19e7fa4865f124e9ea875b54ab4d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path72.png using Guid(db19e7fa4865f124e9ea875b54ab4d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00fbc550574111e8a4d64c6190156378') in 0.0123702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path76.png
+  artifactKey: Guid(bc69e62b7292b87489c284fb4adeaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path76.png using Guid(bc69e62b7292b87489c284fb4adeaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bba2c7fbc56ed0e56bffc27af5a3e9e') in 0.0107517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g53.png
+  artifactKey: Guid(85f67e93314cd44408cbfaf38a4e976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g53.png using Guid(85f67e93314cd44408cbfaf38a4e976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624b0ea54530940de6af72cc79b9d807') in 0.0118451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g21.png
+  artifactKey: Guid(35838e9adb3ca6246959540845725202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g21.png using Guid(35838e9adb3ca6246959540845725202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4152002731d1652894184ffe1a2541a7') in 0.0131222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path186.png
+  artifactKey: Guid(31c8b191561217948957a45de44e6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path186.png using Guid(31c8b191561217948957a45de44e6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ac95f743cb831025c4df8c84f0a98b') in 0.0120665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g40.png
+  artifactKey: Guid(4cc579cc6541d8e4d9bd04aea5cfd94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g40.png using Guid(4cc579cc6541d8e4d9bd04aea5cfd94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba31711a2f01e829927b81b587c144ae') in 0.0130322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g71.png
+  artifactKey: Guid(c55d3a45be3d57d46a92351889b327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g71.png using Guid(c55d3a45be3d57d46a92351889b327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65fd4f91b2ce1f0bfc17dc27a36c0b20') in 0.0132924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g19.png
+  artifactKey: Guid(87a4dc7f0889a554b8afcbb9a8166cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g19.png using Guid(87a4dc7f0889a554b8afcbb9a8166cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c965ce8238a19171edcad64b4be1fa8e') in 0.0143272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path804.png
+  artifactKey: Guid(78f0b9b02294d1d47a26f195c8d88264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path804.png using Guid(78f0b9b02294d1d47a26f195c8d88264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0edbf35c2e810869e1ef43ec5670feb3') in 0.0141836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g2.png
+  artifactKey: Guid(c3d251ef586508943a3f8e9f2e767517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g2.png using Guid(c3d251ef586508943a3f8e9f2e767517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20ae76eb3aa1f9e741fb949156f7e970') in 0.0134583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path154.png
+  artifactKey: Guid(066cae7b47baadb45adad714ca2cb0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path154.png using Guid(066cae7b47baadb45adad714ca2cb0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b2bd38bb6d9f1ebe69abc10b6de833') in 0.0140782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g15.png
+  artifactKey: Guid(de1878e8171e5fd469b958bd617749d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g15.png using Guid(de1878e8171e5fd469b958bd617749d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efcaa4180278357b9139b8e70c88f3a6') in 0.0141136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g68.png
+  artifactKey: Guid(adbf0896b2ef1ed45a6a5502837fa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g68.png using Guid(adbf0896b2ef1ed45a6a5502837fa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3244c4b4e0f47925d6ba88bd119cf50') in 0.0118579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g37.png
+  artifactKey: Guid(0e75b96a0c6054c43854f626d8ee68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g37.png using Guid(0e75b96a0c6054c43854f626d8ee68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0accfca5cdc4077b985a1f89518f50a6') in 0.0139021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g33.png
+  artifactKey: Guid(9ae333723854dd6469139ea36f437168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g33.png using Guid(9ae333723854dd6469139ea36f437168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32075ae4f54b0cd53d8bcd904b5d0c02') in 0.0136193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path67.png
+  artifactKey: Guid(d79b8896e7530cd44837305242753cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path67.png using Guid(d79b8896e7530cd44837305242753cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ba593975f5ed0171a8182c34d8c521') in 0.0167622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev
+  artifactKey: Guid(9974ae90100d8544ab34529e0ad34e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev using Guid(9974ae90100d8544ab34529e0ad34e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c99fb0c7fc71366cb0c4937205fd881') in 0.0007415 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.267790 seconds.
-  path: Assets/space_cowboy
-  artifactKey: Guid(d9e22c0ae42fd02428757c86f4f207df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/space_cowboy using Guid(d9e22c0ae42fd02428757c86f4f207df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b0b86bf299575619e28b43131a01ab') in 0.0006929 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g48.png
+  artifactKey: Guid(99bd209386d2113429298075143e4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g48.png using Guid(99bd209386d2113429298075143e4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f5defa74308e912ba8f80286596c151') in 0.017787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g23.png
+  artifactKey: Guid(a0bdf5b4e7ba32c48aa4e777efb19990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g23.png using Guid(a0bdf5b4e7ba32c48aa4e777efb19990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd1df21b9f46e8b761825b1cd7c7eb7b') in 0.0158096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g62.png
+  artifactKey: Guid(99c205aef6105d5418d75876fe6a3510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g62.png using Guid(99c205aef6105d5418d75876fe6a3510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b79a4e9295503f2ddd5de42ed6f53a5') in 0.0169246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g5.png
+  artifactKey: Guid(79c717e7aba7a2a4fa57bec4b12c7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g5.png using Guid(79c717e7aba7a2a4fa57bec4b12c7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9334c28b64906ed9d1a21ae2f723844') in 0.0138864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g42.png
+  artifactKey: Guid(3889ab69b6c83e440abc4792444b32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g42.png using Guid(3889ab69b6c83e440abc4792444b32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36259ff255124e138f3bf72c765c9e55') in 0.0101634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g66.png
+  artifactKey: Guid(48b1784b0dca97a458949e141ef5f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g66.png using Guid(48b1784b0dca97a458949e141ef5f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c00b0f22e5d407e35ec81fe3aca10cb0') in 0.0112563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g26.png
+  artifactKey: Guid(52520a332839ed04bb6b6c0f88e2e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g26.png using Guid(52520a332839ed04bb6b6c0f88e2e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac6a0bee7e698fe36be660286018bb60') in 0.0151828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g10.png
+  artifactKey: Guid(2f490cef3b08d9e45b5f8a53dae78b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g10.png using Guid(2f490cef3b08d9e45b5f8a53dae78b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e38fe03c7e6323ab82a162503e277f4') in 0.0138193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g36.png
+  artifactKey: Guid(dd8d12a7f733af0498e358e95cb60a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g36.png using Guid(dd8d12a7f733af0498e358e95cb60a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbdb53272b1bad42dd838802310b7f3b') in 0.0161348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g51.png
+  artifactKey: Guid(a95a6d7edfc10984f86b27d03fb7e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g51.png using Guid(a95a6d7edfc10984f86b27d03fb7e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa9f403082c6ed7d41af66102bf2b4c7') in 0.0157945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path171.png
+  artifactKey: Guid(c078a2e5706eb5d49b108195c1b540ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path171.png using Guid(c078a2e5706eb5d49b108195c1b540ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966726b1a22ada4456cd60e79911a321') in 0.0131822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev
+  artifactKey: Guid(7cf6a9292e86d5e4d9fa0dd5219a2ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev using Guid(7cf6a9292e86d5e4d9fa0dd5219a2ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a556afa80786a19cef4c1873c2288d9a') in 0.0005788 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.805422 seconds.
-  path: Assets/Font
-  artifactKey: Guid(3c18a6b203167a942b7449c848a1f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font using Guid(3c18a6b203167a942b7449c848a1f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97cdc31496d156021fba1136d2d2431f') in 0.0005538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g34.png
+  artifactKey: Guid(6d05be80edf9dd3458d4430bc6cb8f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g34.png using Guid(6d05be80edf9dd3458d4430bc6cb8f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac0f04c20bf13312d4eecfae01269832') in 0.014685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.583106 seconds.
-  path: Assets/space_cowboy/spacecow.ttf
-  artifactKey: Guid(63161b9a852121e4aa960d2e75dd2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/space_cowboy/spacecow.ttf using Guid(63161b9a852121e4aa960d2e75dd2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5329e004abfb78649a3a6781774b85da') in 0.0252469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g70.png
+  artifactKey: Guid(3ae30aec5b9b5134fa5acd437f42b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g70.png using Guid(3ae30aec5b9b5134fa5acd437f42b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fe064a9620568c90ccaa8267c48927') in 0.012318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.589385 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d2fbb8e43d38779cb0dacd22abf6052') in 0.0298473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 4.371054 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect105.png
+  artifactKey: Guid(37864ab21ab75014985b1e97bae91504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect105.png using Guid(37864ab21ab75014985b1e97bae91504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52079316ab0d9e913acb323e0896a754') in 0.0143999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.898917 seconds.
-  path: Assets/spacecow SDF.asset
-  artifactKey: Guid(4b97fbc56f485444d84b8384f49361b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spacecow SDF.asset using Guid(4b97fbc56f485444d84b8384f49361b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73ba2c36532b3599b15e4c2a2b0b9866') in 0.0260673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect115.png
+  artifactKey: Guid(a226aaed3aa40a74d9f2e231249a2e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect115.png using Guid(a226aaed3aa40a74d9f2e231249a2e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ffa4317c6742fabc5c780419c78f60') in 0.0134992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.698957 seconds.
-  path: Assets/Scenes/Kasper/MainMenu.unity
-  artifactKey: Guid(82eadbb9257460e4c8457a8946a3cdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Kasper/MainMenu.unity using Guid(82eadbb9257460e4c8457a8946a3cdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e57e4f7e3c3b8ae39a1034330f8a0bee') in 0.0007753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000011 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect117.png
+  artifactKey: Guid(f12d11c1905ae844b97450f0b6599314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect117.png using Guid(f12d11c1905ae844b97450f0b6599314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8300e12f8ebccda790ead7283f65e421') in 0.0132033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.596513 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a70c9a08d7258b0db929fb46d194df7f') in 0.0308232 seconds
+  Time since last request: 8.597945 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path676.png
+  artifactKey: Guid(4c12a3fa27a6a514b8384aaafe11e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path676.png using Guid(4c12a3fa27a6a514b8384aaafe11e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64e7eca23b790d6d63f1c687b6540501') in 0.0581554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path804.png
+  artifactKey: Guid(78f0b9b02294d1d47a26f195c8d88264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path804.png using Guid(78f0b9b02294d1d47a26f195c8d88264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4db92f8dd42ec7dfdc21e56387e8046') in 0.0340758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect106.png
+  artifactKey: Guid(d0d7a8553dcf3794e8835d3a291cb5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect106.png using Guid(d0d7a8553dcf3794e8835d3a291cb5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67e295109428ad1cd23d59f12c67a652') in 0.0256714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect107.png
+  artifactKey: Guid(b1e566613a47e394a939bf47c18e4958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect107.png using Guid(b1e566613a47e394a939bf47c18e4958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e99d8413504b795a0d03d59a299312e') in 0.0223264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect116.png
+  artifactKey: Guid(df8081d46296e0a4fb424a9bb36ceb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_rect116.png using Guid(df8081d46296e0a4fb424a9bb36ceb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eb3d566a143259679e640671b6bc7d7') in 0.0184397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.601170 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd300bd67922ebe72fa33775a2483406f') in 0.4051177 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.881784 seconds.
-  path: Assets/spacecow SDF.asset
-  artifactKey: Guid(4b97fbc56f485444d84b8384f49361b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spacecow SDF.asset using Guid(4b97fbc56f485444d84b8384f49361b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b301d27acce62e540d044d0f9cb7e98') in 0.0197952 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e50a77939c92929062c0a653165347a7') in 0.0303224 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
+========================================================================
+Received Import Request.
+  Time since last request: 14.124610 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g39.png
+  artifactKey: Guid(b3ab82e5dddf85a4ebdd86135dd93faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g39.png using Guid(b3ab82e5dddf85a4ebdd86135dd93faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be613f6be6de1cb564fc895c247a8e8b') in 0.0225118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g119.png
+  artifactKey: Guid(e07c74f79bd2a5c4a82d88899bee8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g119.png using Guid(e07c74f79bd2a5c4a82d88899bee8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3a00cfea38e3a816797e6d99d6068c') in 0.0152727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path66-6.png
+  artifactKey: Guid(3c915d3860ba6b64fb26987cda0c22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path66-6.png using Guid(3c915d3860ba6b64fb26987cda0c22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1aede10d0f4db51808012d0fc28512f') in 0.0140244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path76.png
+  artifactKey: Guid(bc69e62b7292b87489c284fb4adeaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path76.png using Guid(bc69e62b7292b87489c284fb4adeaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0381358654e9a87fe92022a8f9047f8b') in 0.0153519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g71.png
+  artifactKey: Guid(c55d3a45be3d57d46a92351889b327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g71.png using Guid(c55d3a45be3d57d46a92351889b327fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '153a9022b72f495ee462920ad74e5b66') in 0.0176418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g69.png
+  artifactKey: Guid(32337a4425b6e6243a9cc1bca3aa2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g69.png using Guid(32337a4425b6e6243a9cc1bca3aa2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a97192c86db290aa12c6e1e1d04d007f') in 0.0151028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g48.png
+  artifactKey: Guid(99bd209386d2113429298075143e4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g48.png using Guid(99bd209386d2113429298075143e4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c82d0dff56ba2d8193052852adb439b') in 0.0161747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g62.png
+  artifactKey: Guid(99c205aef6105d5418d75876fe6a3510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g62.png using Guid(99c205aef6105d5418d75876fe6a3510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb418db39b693c3f209df10c725927d') in 0.0156571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g55.png
+  artifactKey: Guid(58190a56fa7c94e469df7db3e67fd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g55.png using Guid(58190a56fa7c94e469df7db3e67fd51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f6b9bd4e37929a7fb8e21d660e72925') in 0.0153571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path75.png
+  artifactKey: Guid(26e71690191f7664ca8063a9a5b4c932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path75.png using Guid(26e71690191f7664ca8063a9a5b4c932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '244ace557094c826b791c7cf72b70e80') in 0.0131341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path187.png
+  artifactKey: Guid(6b053c6401c677c45b8af3f895a2fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path187.png using Guid(6b053c6401c677c45b8af3f895a2fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '568339450611408c56d5e2041fd3f14b') in 0.0209616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path171.png
+  artifactKey: Guid(c078a2e5706eb5d49b108195c1b540ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path171.png using Guid(c078a2e5706eb5d49b108195c1b540ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d71f5629980c842a0610dec78338d83') in 0.018124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path170.png
+  artifactKey: Guid(7aee9261a10df294eb78c9dc87d3ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_path170.png using Guid(7aee9261a10df294eb78c9dc87d3ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3380b18bbd688866579c8e99bde82ae3') in 0.0158717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211979 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g27.png
+  artifactKey: Guid(2fdcc5a0379b8d1428908ca732e12559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g27.png using Guid(2fdcc5a0379b8d1428908ca732e12559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf0a520eb6d73fa3bc1957a124dd73b2') in 0.0200824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g32.png
+  artifactKey: Guid(c62f78367fc6e4d4383cb7f79393ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g32.png using Guid(c62f78367fc6e4d4383cb7f79393ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e46e25ef6f0d010cc997aa31d3f812a6') in 0.0293262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g34.png
+  artifactKey: Guid(6d05be80edf9dd3458d4430bc6cb8f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g34.png using Guid(6d05be80edf9dd3458d4430bc6cb8f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e45dbb3b9572191b207cf888f1684b') in 0.0154617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g18.png
+  artifactKey: Guid(64dfb8f147879e8489a488b396ab47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g18.png using Guid(64dfb8f147879e8489a488b396ab47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a1c9622470168b9adc8d1e19e2db2a2') in 0.0136365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g24.png
+  artifactKey: Guid(ea966c618e6f2244bb18de8b6b186e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g24.png using Guid(ea966c618e6f2244bb18de8b6b186e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '904dc934fcdaed107375a1523ad4b578') in 0.0151436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486741 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g3.png
+  artifactKey: Guid(9c9e9c785a7a40f43a2e0afd154476c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g3.png using Guid(9c9e9c785a7a40f43a2e0afd154476c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd908efd1513d1aa1fce7c8082a9207d2') in 0.0166069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g9.png
+  artifactKey: Guid(efea74d8fba4b744a8dc89509cc4a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Art Assets/UI_Autumn_By_VerzatileDev/UI_Autumn_Individual_by_VerzatileDev/UI_Autmn_g9.png using Guid(efea74d8fba4b744a8dc89509cc4a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc05fb3a7fccbf2675ff92d73e2c4550') in 0.0138742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5979 unused Assets / (6.7 MB). Loaded Objects now: 6763.
+Memory consumption went from 165.4 MB to 158.7 MB.
+Total: 12.880600 ms (FindLiveObjects: 0.953500 ms CreateObjectMapping: 0.964600 ms MarkObjects: 5.967100 ms  DeleteObjects: 4.994300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 1174ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5979 unused Assets / (6.8 MB). Loaded Objects now: 6765.
+Memory consumption went from 163.1 MB to 156.3 MB.
+Total: 7.239300 ms (FindLiveObjects: 0.532500 ms CreateObjectMapping: 0.472500 ms MarkObjects: 3.368100 ms  DeleteObjects: 2.864900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1186ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5979 unused Assets / (7.1 MB). Loaded Objects now: 6767.
+Memory consumption went from 163.1 MB to 156.0 MB.
+Total: 7.769000 ms (FindLiveObjects: 0.503800 ms CreateObjectMapping: 0.453100 ms MarkObjects: 3.677400 ms  DeleteObjects: 3.133300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1196ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5979 unused Assets / (7.0 MB). Loaded Objects now: 6769.
+Memory consumption went from 163.1 MB to 156.1 MB.
+Total: 8.031500 ms (FindLiveObjects: 0.561000 ms CreateObjectMapping: 0.641900 ms MarkObjects: 3.729400 ms  DeleteObjects: 3.097900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
