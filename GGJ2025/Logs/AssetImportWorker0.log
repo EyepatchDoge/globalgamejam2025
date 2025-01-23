@@ -766,6 +766,7 @@ Received Import Request.
 Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png using Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf3f318fed7580b6b386bfd463ca5683') in 0.0669141 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+<<<<<<< Updated upstream
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
@@ -1142,3 +1143,10 @@ Memory consumption went from 163.5 MB to 156.4 MB.
 Total: 7.754200 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.541700 ms MarkObjects: 3.581400 ms  DeleteObjects: 3.154300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> Stashed changes
