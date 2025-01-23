@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16220 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32456 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
+C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49167
+52905
 -job-worker-count
-9
+15
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
-C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
+Successfully changed project path to: C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025
+C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37444]  Target information:
+Player connection [12608]  Target information:
 
-Player connection [37444]  * "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 1013981164 [EditorId] 1013981164 [Version] 1048832 [Id] WindowsEditor(7,Kasper-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12608]  * "[IP] 10.0.0.69 [Port] 0 [Flags] 2 [Guid] 1533205026 [EditorId] 1533205026 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [37444] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [37444] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [12608] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12608] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,59 +76,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025/Assets
+[Subsystems] Discovering subsystems at path C:/Users/andyk/OneDrive/Documents/GitHub/globalgamejam2025/GGJ2025/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
     Vendor:   NVIDIA
-    VRAM:     7949 MB
-    Driver:   32.0.15.6603
+    VRAM:     11997 MB
+    Driver:   32.0.15.5612
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002239 seconds.
-- Loaded All Assemblies, in  0.309 seconds
+Registered in 0.002125 seconds.
+- Loaded All Assemblies, in  0.270 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.270 seconds
-Domain Reload Profiling: 578ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 532ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (271ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (263ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (233ms)
+		SetupLoadedEditorAssemblies (231ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,1016 +139,69 @@ Domain Reload Profiling: 578ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.652 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.694 seconds
-Domain Reload Profiling: 1343ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (307ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (262ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
 			BuildScriptInfoCaches (57ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (694ms)
+	FinalizeReload (600ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (551ms)
+		SetupLoadedEditorAssemblies (486ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5983 unused Assets / (6.9 MB). Loaded Objects now: 6640.
-Memory consumption went from 165.7 MB to 158.8 MB.
-Total: 8.312100 ms (FindLiveObjects: 0.513600 ms CreateObjectMapping: 0.554300 ms MarkObjects: 3.717900 ms  DeleteObjects: 3.525300 ms)
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5959 unused Assets / (3.6 MB). Loaded Objects now: 6660.
+Memory consumption went from 164.8 MB to 161.2 MB.
+Total: 7.259300 ms (FindLiveObjects: 0.537700 ms CreateObjectMapping: 0.420900 ms MarkObjects: 4.673700 ms  DeleteObjects: 1.625800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 673253.873180 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Models/LeftFin_2.fbx
-  artifactKey: Guid(26f8c4d1773154f4882b831c248b0ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Models/LeftFin_2.fbx using Guid(26f8c4d1773154f4882b831c248b0ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f7cb0fd6cb17e29ccf1b62ee0bdd2f7') in 0.4676837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Models/RightFin_2.fbx
-  artifactKey: Guid(f8abf814e1dbdfe4ba820105e5da8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Models/RightFin_2.fbx using Guid(f8abf814e1dbdfe4ba820105e5da8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9455f2cbe0a0f2dc8e4e95ccfd5a5c6') in 0.0277241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 420.576509 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93637887d61d697fffe4fab13f7fb867') in 0.0237972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.416792 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a518c0448dac20cc933210ddc111d120') in 0.0172949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.570792 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '803ccdfb6b1f6456c02c640142707541') in 0.0190079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.997494 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c657fba2d279b13a14cab6699187b014') in 0.017812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.371936 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff5e9374bed664d6762f75897cd1563') in 0.0164093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.636332 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b1b9172113c5e8f48e65cdae3558c15') in 0.0177245 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.574280 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc110e1a15baca10e00b519437374b42') in 0.0169877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.598562 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5b879d0beccc026dd828a9493348c6') in 0.0174096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.969421 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e745e99da8d29fbf65762ee6eeba029') in 0.0174042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.777852 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a5531476411abe96eb7b121b3338878') in 0.0153312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.191818 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e04d445db0326e5752f6fc78157eb413') in 0.0163314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.615546 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40f71fb182e293c56424b03b19fd529d') in 0.0162934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.982378 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591029302e1adb691171ab3066acacc5') in 0.0178879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.009966 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfc3fb0c35cb468fe71ea097db9bb3ee') in 0.0150979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.977326 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68814c190b583768d4c0881920e7d2ea') in 0.017832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.590557 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1319f491ab9d32ebfcfe4ef2326fb373') in 0.0538252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.739919 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eda662c38d592e2e25a936f21ce1beca') in 0.0146111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.579429 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a61727a991fc8b131304e2df14c6a97') in 0.015865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.807544 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8016a902e6f85f33af3cccdb137f5f01') in 0.0170332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.408286 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3f1182a821ccd86c4f4e46b49297f7') in 0.0191661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.178765 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb941cb2df63a55327f5c7d901689ad') in 0.0133173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.396077 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cddeba0b472dbdf579ca5720f27d6050') in 0.0512976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.746612 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76c994ceddf9f5d4cf2dffca37e15d78') in 0.0171055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.221941 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7130030693327b8b02cc8aec2a8d1642') in 0.0196354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.369055 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff277c51acfad0f21e773b5b87c9287e') in 0.0170608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.479037 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20530e57bf1602719702daf0f99c4c89') in 0.0144388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.973295 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c08a5c2118571d8988e00bd710fd195') in 0.0209864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.612013 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14fb60b76fd2c74d6b39484a25fea4e7') in 0.0160107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.811360 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '197e34b8a9e9d58f90d664d2908bce96') in 0.0145849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378132 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad27b8d5936c81d90c599943bf6afbe4') in 0.0163727 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.777330 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4b4168a6de530e19603ee23b3d17a8') in 0.0171527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.374935 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac456f7237cce84a262dbcb56fb2ea0a') in 0.0148985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.060478 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcfd0d079fc2fb89f498aa12a66485bc') in 0.018112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.580125 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af197c622b037db94e4aac45487e2e44') in 0.0142581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.195520 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8712d0627146f6a16d92da7f8b5e33b0') in 0.0172036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.605681 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd8cd9e47e3f49b47623bc2c6317399') in 0.0162108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.382455 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fff8a7539891163a3bef8496e3f046f0') in 0.0159629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.979273 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281a38209e039d8dde99c9fb99d98889') in 0.0146967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.774863 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c75ff9d5514daf69ae7a4be338b1545') in 0.01415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.060382 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ca08b90c938a7d440b9cb6d94a06940') in 0.0151259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.225944 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f11f7b791c8602b348f8996132cec39') in 0.0136128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.788192 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9322db2105d264be956dbf04d4e61ecd') in 0.0157908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.018671 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96713c9cf79ceeb6ea9bb1123cb7fdb1') in 0.0143351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.590158 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d61079572d7b725cc5063b41173339') in 0.0135511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.605316 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8a0e237ea5f7c965e2ac7cd5a349d1a') in 0.0136233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.979632 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395933bf0f464224c8365c45d85334cf') in 0.0145312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.401133 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '760d6c169a8c4b2a5f422f14cac529d7') in 0.0182776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.121936 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d7946a844e1a7dd4075bfa5057a15d') in 0.0175704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.032461 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f820c54a78167770238fee826f8f3f05') in 0.015824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.372946 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c6917eb11f42617db8788327a0e759a') in 0.0163905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.206311 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54b9cf25a6f6c2405b783adc980c05fe') in 0.0175387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.799129 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1148cda189dcfd772c43e9bde762b69b') in 0.021059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.221956 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d9d8a0906294305cd1344c201901b6') in 0.0138013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.607869 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7e17e8b2c84f02b5a65808a8691567') in 0.0172817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.401317 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dccc3e384b13183cfa67b5f367c0ae5') in 0.0153777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.396004 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '601d96041668b4da0bd84464c051e1b1') in 0.0162493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.818169 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea49c14d2ce6902fea5345332a68e87') in 0.0181651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.844645 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b05a256cae8b6a2bf46f0e693353bb') in 0.0158001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.593523 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32722b38cd845d1813d95570303a30e9') in 0.0147964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.836120 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82369df952c61a65e10450c5b45a1fe') in 0.009728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.571038 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d30b767cb5c5ce3d3839d2c6d5602b6') in 0.0085549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.221340 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '250a226c8ff7c0039c2ed13fa12c67b4') in 0.0095373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.187363 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d42df0b1684975db5d82c60c7e142ef') in 0.0205144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.189259 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ab42f57036b3d629b4841a255ff80e') in 0.0087756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.188622 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a43107b90bc79640b489ff5a18da28fb') in 0.0098557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.189628 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bb2f1cd2e6ee1132c9bc27e217158f1') in 0.0175226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.083514 seconds.
-  path: Assets/Prefabs/TurtleShip.prefab
-  artifactKey: Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TurtleShip.prefab using Guid(6253cc037559ce642862e9a7c19fdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b1c591c699638e1f255c6b818385e0') in 0.0109703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.214900 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_Body_Head_BaseMap.png
-  artifactKey: Guid(b4efb7617dbdf014b9f882318523dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_Body_Head_BaseMap.png using Guid(b4efb7617dbdf014b9f882318523dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d84589a0442f835b7474367e441f44') in 0.022342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009229 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_1_BaseMap.png
-  artifactKey: Guid(afafd0ad048db4e48868351c33497487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_1_BaseMap.png using Guid(afafd0ad048db4e48868351c33497487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ca043bd330205d9ff079df0011bb7c3') in 0.0152973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_Normal.png
-  artifactKey: Guid(bb9a151ab40737145bfbd71fed23207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_Normal.png using Guid(bb9a151ab40737145bfbd71fed23207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4275330b6a68cd42d414732ccc16e1c9') in 0.0143212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
+  Time since last request: 324714.727069 seconds.
   path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png
   artifactKey: Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png using Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf3f318fed7580b6b386bfd463ca5683') in 0.0669141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-<<<<<<< Updated upstream
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_MaskMap.png
-  artifactKey: Guid(456735f41ee9893439bc13163823d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_LeftFin_2_MaskMap.png using Guid(456735f41ee9893439bc13163823d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad39d07cb194ace0f1d7a2b4cf53e7e') in 0.0241338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_2_BaseMap.png using Guid(7538338d23d099443aba6f6d52cf63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7060f950f03a73a5eedabf5895439a7') in 0.0962034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_MaskMap.png
-  artifactKey: Guid(2c0af66689a9911478262203941264b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_MaskMap.png using Guid(2c0af66689a9911478262203941264b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74341f554f8cd15141bb5fdc0830374a') in 0.0203044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_BaseMap.png
+  artifactKey: Guid(20cd385c642a3a5419d8ca704a2c42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_BaseMap.png using Guid(20cd385c642a3a5419d8ca704a2c42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aee2479d9a2bc8065b55caac0b00a50') in 0.0263011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_Normal.png
-  artifactKey: Guid(9a0ec7c7f1859054b8c1248aa8695e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Turtle_Robot/Textures/Turtle_Robot_RightFin_1_Normal.png using Guid(9a0ec7c7f1859054b8c1248aa8695e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a820e0e31b9f4e902d4a065d5a3d4f2c') in 0.0138453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.116372 seconds.
-  path: Assets/Materials/New Test Skybox.mat
-  artifactKey: Guid(2383f1ce159f86f4d99cfd198f19a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Test Skybox.mat using Guid(2383f1ce159f86f4d99cfd198f19a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba70ac2a4cb382ad0db6d00ea0cd0359') in 0.0802635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.151565 seconds.
-  path: Assets/Materials/Turtle
-  artifactKey: Guid(f7906b4e3484ec345a9b918a481e4e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Turtle using Guid(f7906b4e3484ec345a9b918a481e4e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05734be7f3bcdfcef816d4e05352b03b') in 0.0006968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.575 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.581 seconds
-Domain Reload Profiling: 1156ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (265ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (129ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (581ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5980 unused Assets / (7.2 MB). Loaded Objects now: 6726.
-Memory consumption went from 165.2 MB to 158.0 MB.
-Total: 8.631600 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.683900 ms MarkObjects: 3.816200 ms  DeleteObjects: 3.504400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.550 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.564 seconds
-Domain Reload Profiling: 1113ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (264ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (131ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (564ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (7.0 MB). Loaded Objects now: 6728.
-Memory consumption went from 163.4 MB to 156.4 MB.
-Total: 8.564400 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 0.464400 ms MarkObjects: 4.649200 ms  DeleteObjects: 2.928100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.569 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.590 seconds
-Domain Reload Profiling: 1159ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (360ms)
-		LoadAssemblies (276ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (142ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (590ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (445ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (7.1 MB). Loaded Objects now: 6730.
-Memory consumption went from 163.4 MB to 156.4 MB.
-Total: 7.503100 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.476000 ms MarkObjects: 3.354600 ms  DeleteObjects: 3.198500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.584 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.569 seconds
-Domain Reload Profiling: 1153ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (293ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (141ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (569ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (6.8 MB). Loaded Objects now: 6732.
-Memory consumption went from 163.4 MB to 156.6 MB.
-Total: 7.444500 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.436500 ms MarkObjects: 3.501500 ms  DeleteObjects: 3.027800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.577 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.561 seconds
-Domain Reload Profiling: 1138ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (561ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (6.8 MB). Loaded Objects now: 6734.
-Memory consumption went from 163.4 MB to 156.6 MB.
-Total: 7.928500 ms (FindLiveObjects: 0.557600 ms CreateObjectMapping: 0.472200 ms MarkObjects: 3.778200 ms  DeleteObjects: 3.119400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.581 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.557 seconds
-Domain Reload Profiling: 1137ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (557ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (6.9 MB). Loaded Objects now: 6736.
-Memory consumption went from 163.4 MB to 156.5 MB.
-Total: 7.112600 ms (FindLiveObjects: 0.527700 ms CreateObjectMapping: 0.468300 ms MarkObjects: 3.347300 ms  DeleteObjects: 2.768300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.542 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1095ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (257ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (136ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (553ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5979 unused Assets / (7.1 MB). Loaded Objects now: 6738.
-Memory consumption went from 163.5 MB to 156.4 MB.
-Total: 7.754200 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.541700 ms MarkObjects: 3.581400 ms  DeleteObjects: 3.154300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-=======
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
->>>>>>> Stashed changes
