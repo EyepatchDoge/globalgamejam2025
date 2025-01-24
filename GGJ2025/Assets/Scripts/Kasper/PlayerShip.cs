@@ -28,7 +28,7 @@ public class PlayerShip : MonoBehaviour
     float fuelConsumptionAmount = 5f;
     [SerializeField]
     float fuelConsumptionRate = 1.0f;
-    
+   
     //fuel related references
     float fuelRateTimer = 1.0f;
     [SerializeField]
@@ -46,7 +46,8 @@ public class PlayerShip : MonoBehaviour
     [SerializeField]
     GameObject gameOverPanel;
     bool isReady;
-
+    [SerializeField]
+    private Animator animator;
 
 
     private void Awake()
@@ -93,6 +94,8 @@ public class PlayerShip : MonoBehaviour
 
         mouseInputX = Input.GetAxis("Mouse X");
         mouseInputY = Input.GetAxis("Mouse Y");
+
+        AnimateShip();
     }
 
     //this function should only have physics/rigidbody code in here, avoid putting inputs here
@@ -167,6 +170,19 @@ public class PlayerShip : MonoBehaviour
     float GetVelocityPercent()
     {
         return Mathf.InverseLerp(0, velocityMax , shipVelocity);
+    }
+
+    public void AnimateShip()
+    {
+        if (ShouldUseFuel())
+        {
+            animator.SetBool("isMoving", true);
+
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
     }
 
 }

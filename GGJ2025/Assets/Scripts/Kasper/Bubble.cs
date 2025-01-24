@@ -11,6 +11,7 @@ public class Bubble : MonoBehaviour
     float fuelAmount = 25f;
     [SerializeField]
     float hidetimer = 2.0f;
+    public AudioSource bubblePop;
     #endregion
 
     void OnTriggerEnter(Collider other)
@@ -32,6 +33,7 @@ public class Bubble : MonoBehaviour
     }
     private IEnumerator HideAndShow(float delay, GameObject bubble)
     {
+        bubblePop.Play();
         bubble.SetActive(false);
         yield return new WaitForSeconds(delay); // Wait for the specified time
         bubble.SetActive(true); // Reactivate the bubble GameObject after the delay
