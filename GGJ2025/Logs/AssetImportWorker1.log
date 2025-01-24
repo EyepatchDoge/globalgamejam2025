@@ -217,3 +217,7 @@ Received Import Request.
 Start importing Assets/Art/Asteroids Pack/Assets/Materials/small_asteroid.mat using Guid(44f9d629006bb76409d3626dd82797c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6715af3c691472319221bc3f24b7563') in 2.4512129 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

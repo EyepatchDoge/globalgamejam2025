@@ -225,3 +225,8 @@ Received Import Request.
 Start importing Assets/Art/Andy/Asteroids using Guid(48778a4a0a990ec40aeb61c996f06421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d18e551c57a2e0365ecc168113047ba') in 0.0004764 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
