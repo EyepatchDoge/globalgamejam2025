@@ -387,10 +387,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 863
-      height: 645
-    m_Scale: {x: 0.44947916, y: 0.44947916}
-    m_Translation: {x: 431.5, y: 322.5}
+      width: 1295
+      height: 878
+    m_Scale: {x: 0.6744792, y: 0.6744792}
+    m_Translation: {x: 647.5, y: 439}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -398,12 +398,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -717.49713
+      y: -650.87256
       width: 1920
-      height: 1434.9943
+      height: 1301.7451
     m_MinimalGUI: 1
-  m_defaultScale: 0.44947916
-  m_LastWindowPixelSize: {x: 863, y: 666}
+  m_defaultScale: 0.6744792
+  m_LastWindowPixelSize: {x: 1295, y: 899}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -0.36756277, y: 0.11826563, z: 0.31382036}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
@@ -1023,11 +1023,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.08651031, y: 0.69700533, z: -0.08532446, w: 0.7066969}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 10
+    m_Target: 12.124355
     speed: 2
     m_Value: 10
   m_Ortho:
@@ -1303,7 +1303,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 9ea80000
     m_LastClickedID: 43166
-    m_ExpandedIDs: 0000000072a6000074a6000076a6000078a600007aa60000
+    m_ExpandedIDs: 0000000034a8000036a8000038a800003aa800003ca80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1332,7 +1332,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072a6000074a6000076a6000078a600007aa60000
+    m_ExpandedIDs: 0000000034a8000036a8000038a800003aa800003ca80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -15,7 +15,7 @@ C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57359
+61889
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kaspo/Documents/GitHub/globalgamejam2025/GGJ2025
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35612]  Target information:
+Player connection [43332]  Target information:
 
-Player connection [35612]  * "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 3917449386 [EditorId] 3917449386 [Version] 1048832 [Id] WindowsEditor(7,Kasper-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [43332]  * "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 406779408 [EditorId] 406779408 [Version] 1048832 [Id] WindowsEditor(7,Kasper-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [35612] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [35612] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [43332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43332] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 223.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +92,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003463 seconds.
-- Loaded All Assemblies, in  0.364 seconds
+Registered in 0.412206 seconds.
+- Loaded All Assemblies, in 15.860 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.296 seconds
-Domain Reload Profiling: 659ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 16234ms
+	BeginReloadAssembly (12879ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (114ms)
+	RebuildCommonClasses (789ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (476ms)
+	LoadAllAssembliesAndSetupDomain (1700ms)
+		LoadAssemblies (12835ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (1696ms)
+			TypeCache.Refresh (1695ms)
+				TypeCache.ScanAssembly (1201ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (297ms)
+	FinalizeReload (378ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
+		SetupLoadedEditorAssemblies (346ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,108 +137,80 @@ Domain Reload Profiling: 659ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.635 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+- Loaded All Assemblies, in 13.822 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1203ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  2.409 seconds
+Domain Reload Profiling: 16226ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (311ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (13517ms)
+		LoadAssemblies (12209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (126ms)
-			BuildScriptInfoCaches (52ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (572ms)
+		AnalyzeDomain (1452ms)
+			TypeCache.Refresh (1320ms)
+				TypeCache.ScanAssembly (1219ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2409ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (449ms)
+		SetupLoadedEditorAssemblies (1455ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (732ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5981 unused Assets / (6.5 MB). Loaded Objects now: 6642.
-Memory consumption went from 165.9 MB to 159.4 MB.
-Total: 6.653400 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.438600 ms MarkObjects: 3.303700 ms  DeleteObjects: 2.444800 ms)
+Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5981 unused Assets / (7.7 MB). Loaded Objects now: 6643.
+Memory consumption went from 170.3 MB to 162.6 MB.
+Total: 13.682000 ms (FindLiveObjects: 1.271700 ms CreateObjectMapping: 0.646100 ms MarkObjects: 6.229200 ms  DeleteObjects: 5.533100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 751501.053162 seconds.
-  path: Assets/shaders/Exhaust.shadergraph
-  artifactKey: Guid(004e9b38464e91c47bb4684c4935e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Exhaust.shadergraph using Guid(004e9b38464e91c47bb4684c4935e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb99e2b212d64e7caee4c9e0b4793e56') in 0.536287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 764491.141513 seconds.
+  path: Assets/Art/Materials/Turtle/RightFin2.mat
+  artifactKey: Guid(b3ee32c9eece1764ca3f7f099dac6654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Turtle/RightFin2.mat using Guid(b3ee32c9eece1764ca3f7f099dac6654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8fecfa6c61a5ac4983c4c49b445d522') in 0.5654891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.508101 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_BaseMap.png
-  artifactKey: Guid(d16e3a5473447ea40818cdabb0324a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_BaseMap.png using Guid(d16e3a5473447ea40818cdabb0324a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b624985d592fc4e21a4bc942a631edb') in 0.0323648 seconds
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph
+  artifactKey: Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph using Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f89392a0e475488763d4e3d6ac4a5cb5') in 0.6506506 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Purple_MaskMap.png
-  artifactKey: Guid(be89f377b5721f346839a2c313660522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Purple_MaskMap.png using Guid(be89f377b5721f346839a2c313660522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ce8bb310b067386205c28e08c04637') in 0.0397176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00d156ef963ff4d0a22a5717cc9b8fd2') in 4.2617162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Red_BaseMap.png
-  artifactKey: Guid(f3f24ee07ca2962429c21f82fd739be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Red_BaseMap.png using Guid(f3f24ee07ca2962429c21f82fd739be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1dd613c4078b7c92aa38e01bd6151d') in 0.0264318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f24dc27d378c44ab0bfbddfe3e4a0e6d') in 2.4146156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_MaskMap.png
-  artifactKey: Guid(cbe1d1cdf467e034ea956d246db2f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_MaskMap.png using Guid(cbe1d1cdf467e034ea956d246db2f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f639076f7ca9467e8d337d84473b44dd') in 0.014722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_Normal.png
-  artifactKey: Guid(06f7499ec649cf149bdf3d491f92b540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_LightBlue_Normal.png using Guid(06f7499ec649cf149bdf3d491f92b540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c3b27e9277b46085f989a5d49c8b473') in 0.0754155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Purple_Normal.png
-  artifactKey: Guid(7613c5ffa592c8449ab8ff21bedce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Andy/Asteroids/Asteroid_1/Asteroid_1_Purple_Normal.png using Guid(7613c5ffa592c8449ab8ff21bedce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13f2c2004a55375d0e773229f29d08f2') in 0.038929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
