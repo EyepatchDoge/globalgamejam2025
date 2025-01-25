@@ -121,7 +121,11 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 146
+=======
+  controlID: 50
+>>>>>>> Stashed changes
 =======
   controlID: 50
 >>>>>>> Stashed changes
@@ -1306,9 +1310,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: f2ad0000
     m_LastClickedID: 44530
     m_ExpandedIDs: 00000000bca70000bea70000c0a70000c2a70000c4a70000
+=======
+    m_SelectedIDs: eca70000
+    m_LastClickedID: 42988
+    m_ExpandedIDs: 00000000aaa50000a8a7000000ca9a3bffffff7f
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: eca70000
     m_LastClickedID: 42988
@@ -1343,7 +1353,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000bca70000bea70000c0a70000c2a70000c4a70000
+=======
+    m_ExpandedIDs: 00000000aaa50000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 00000000aaa50000
 >>>>>>> Stashed changes
