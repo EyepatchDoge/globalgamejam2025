@@ -6,12 +6,20 @@ public class GameManager : MonoBehaviour
     #region variables
 
     public GameObject pausePanel;
+    public VolumeSettings musicVolumeSettings;
+    public VolumeSettings SFXVolumeSettings;
 
     #endregion
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        musicVolumeSettings.LoadVolume();
+        musicVolumeSettings.SetMusicVolume();
+        musicVolumeSettings.SetSFXVolume();
+
+        SFXVolumeSettings.LoadVolume();
+        SFXVolumeSettings.SetMusicVolume();
+        SFXVolumeSettings.SetSFXVolume();
     }
 
     // Update is called once per frame
