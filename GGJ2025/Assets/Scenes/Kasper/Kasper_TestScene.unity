@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 15547909}
   - component: {fileID: 15547908}
   - component: {fileID: 15547907}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -314,7 +318,7 @@ GameObject:
   - component: {fileID: 49873241}
   - component: {fileID: 49873240}
   - component: {fileID: 49873239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,6 +595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road S-Curve (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
       value: 129.09
@@ -803,7 +811,7 @@ GameObject:
   - component: {fileID: 97338800}
   - component: {fileID: 97338799}
   - component: {fileID: 97338798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,6 +975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -989,7 +1001,7 @@ GameObject:
   - component: {fileID: 193347505}
   - component: {fileID: 193347504}
   - component: {fileID: 193347503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,6 +1177,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218511403}
   m_CullTransparentMesh: 1
+--- !u!1 &225933191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225933192}
+  m_Layer: 0
+  m_Name: GameObject (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225933192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225933191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7372774, y: 0, z: 0, w: 0.67559016}
+  m_LocalPosition: {x: 0.00864, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600039446}
+  m_LocalEulerAnglesHint: {x: 95, y: 0, z: 0}
 --- !u!1 &231335953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,7 +1220,7 @@ GameObject:
   - component: {fileID: 231335957}
   - component: {fileID: 231335956}
   - component: {fileID: 231335955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,6 +1330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -174.69
@@ -1349,7 +1396,7 @@ GameObject:
   - component: {fileID: 240474863}
   - component: {fileID: 240474862}
   - component: {fileID: 240474861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1507,7 @@ GameObject:
   - component: {fileID: 242328315}
   - component: {fileID: 242328314}
   - component: {fileID: 242328313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,6 +1617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road S-Curve
       objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1644,7 +1695,7 @@ GameObject:
   - component: {fileID: 251026786}
   - component: {fileID: 251026785}
   - component: {fileID: 251026784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1753,7 +1804,7 @@ GameObject:
   - component: {fileID: 251085696}
   - component: {fileID: 251085695}
   - component: {fileID: 251085694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +2047,7 @@ GameObject:
   - component: {fileID: 296141492}
   - component: {fileID: 296141491}
   - component: {fileID: 296141490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2195,7 +2246,7 @@ GameObject:
   - component: {fileID: 317159774}
   - component: {fileID: 317159773}
   - component: {fileID: 317159772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,6 +2343,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317159770}
   m_Mesh: {fileID: 4300000, guid: 23337dac036abd34499f9f5131a19858, type: 3}
+--- !u!1 &320615071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320615072}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320615072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320615071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7372774, y: 0, z: 0, w: 0.67559016}
+  m_LocalPosition: {x: -0.0089902, y: -6.3329936e-10, z: -0.0000000035017729}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600039446}
+  m_LocalEulerAnglesHint: {x: 95, y: 0, z: 0}
 --- !u!1 &346953971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,7 +2386,7 @@ GameObject:
   - component: {fileID: 346953975}
   - component: {fileID: 346953974}
   - component: {fileID: 346953973}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2550,7 +2632,7 @@ GameObject:
   - component: {fileID: 387551003}
   - component: {fileID: 387551002}
   - component: {fileID: 387551001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2658,6 +2740,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2770,6 +2856,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3423688329333404129, guid: 6253cc037559ce642862e9a7c19fdf41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2144482444}
+    - targetCorrespondingSourceObject: {fileID: 3423688329333404129, guid: 6253cc037559ce642862e9a7c19fdf41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 600039446}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2650564961245408091, guid: 6253cc037559ce642862e9a7c19fdf41, type: 3}
       insertIndex: -1
@@ -2819,7 +2908,7 @@ GameObject:
   - component: {fileID: 487056487}
   - component: {fileID: 487056486}
   - component: {fileID: 487056485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2928,7 +3017,7 @@ GameObject:
   - component: {fileID: 515126214}
   - component: {fileID: 515126213}
   - component: {fileID: 515126212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3225,6 +3314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3383,7 +3476,7 @@ GameObject:
   - component: {fileID: 579302775}
   - component: {fileID: 579302774}
   - component: {fileID: 579302773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3679,6 +3772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3700,6 +3797,10 @@ PrefabInstance:
     - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_Name
       value: Road S-Curve (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3751,6 +3852,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
   m_PrefabInstance: {fileID: 592714604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &593718850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 593718851}
+  m_Layer: 0
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &593718851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593718850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7372774, y: 0, z: 0, w: 0.67559016}
+  m_LocalPosition: {x: -0.0004, y: 0.00004, z: 0.01157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600039446}
+  m_LocalEulerAnglesHint: {x: 95, y: 0, z: 0}
 --- !u!1 &599443295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,6 +4040,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599443295}
   m_CullTransparentMesh: 1
+--- !u!1 &600039445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600039446}
+  m_Layer: 0
+  m_Name: Raycasts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600039446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600039445}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 320615072}
+  - {fileID: 225933192}
+  - {fileID: 593718851}
+  - {fileID: 940646343}
+  - {fileID: 2038211530}
+  m_Father: {fileID: 444505948}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &607547938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3981,6 +4149,10 @@ PrefabInstance:
     - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_Name
       value: Road S-Curve
+      objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4097,7 +4269,7 @@ GameObject:
   - component: {fileID: 629348436}
   - component: {fileID: 630480644}
   - component: {fileID: 634507734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4154,7 +4326,7 @@ GameObject:
   - component: {fileID: 637326858}
   - component: {fileID: 637326857}
   - component: {fileID: 637326856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4263,6 +4435,10 @@ PrefabInstance:
     - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_Name
       value: Road Curve (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -4471,7 +4647,7 @@ GameObject:
   - component: {fileID: 684102338}
   - component: {fileID: 684102337}
   - component: {fileID: 684102336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4580,6 +4756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.61
@@ -4642,7 +4822,7 @@ GameObject:
   - component: {fileID: 717462016}
   - component: {fileID: 717462015}
   - component: {fileID: 717462014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4751,7 +4931,7 @@ GameObject:
   - component: {fileID: 757941588}
   - component: {fileID: 757941587}
   - component: {fileID: 757941586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4861,7 +5041,7 @@ GameObject:
   - component: {fileID: 782909837}
   - component: {fileID: 782909836}
   - component: {fileID: 782909835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5106,7 +5286,7 @@ GameObject:
   - component: {fileID: 799681560}
   - component: {fileID: 799681559}
   - component: {fileID: 799681558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5215,7 +5395,7 @@ GameObject:
   - component: {fileID: 808105947}
   - component: {fileID: 808105946}
   - component: {fileID: 808105945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5326,7 +5506,7 @@ GameObject:
   - component: {fileID: 817339586}
   - component: {fileID: 817339585}
   - component: {fileID: 817339584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5572,6 +5752,10 @@ PrefabInstance:
     - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_Name
       value: Road S-Curve (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5846,6 +6030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.22
@@ -6032,6 +6220,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928066159}
   m_CullTransparentMesh: 1
+--- !u!1 &940646342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940646343}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &940646343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940646342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7372774, y: 0, z: 0, w: 0.67559016}
+  m_LocalPosition: {x: -0.0004, y: -0.00058, z: -0.01197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600039446}
+  m_LocalEulerAnglesHint: {x: 95, y: 0, z: 0}
 --- !u!1001 &957942381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6043,6 +6262,10 @@ PrefabInstance:
     - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_Name
       value: Road Curve (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6425,6 +6648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6490,7 +6717,7 @@ Transform:
   m_GameObject: {fileID: 1087982869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.432, y: 2.2, z: -2.19}
+  m_LocalPosition: {x: 0.432, y: 2.38, z: -2.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6551,7 +6778,7 @@ GameObject:
   - component: {fileID: 1110705338}
   - component: {fileID: 1110705337}
   - component: {fileID: 1110705336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6738,6 +6965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -6812,7 +7043,7 @@ GameObject:
   - component: {fileID: 1135180487}
   - component: {fileID: 1135180486}
   - component: {fileID: 1135180485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6987,7 +7218,7 @@ GameObject:
   - component: {fileID: 1139164673}
   - component: {fileID: 1139164672}
   - component: {fileID: 1139164671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7096,7 +7327,7 @@ GameObject:
   - component: {fileID: 1163413979}
   - component: {fileID: 1163413978}
   - component: {fileID: 1163413977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7555,6 +7786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.92
@@ -7617,7 +7852,7 @@ GameObject:
   - component: {fileID: 1205008831}
   - component: {fileID: 1205008830}
   - component: {fileID: 1205008829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7726,6 +7961,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7868,6 +8107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.25
@@ -7930,7 +8173,7 @@ GameObject:
   - component: {fileID: 1231718660}
   - component: {fileID: 1231718659}
   - component: {fileID: 1231718658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8364,6 +8607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8437,6 +8684,10 @@ PrefabInstance:
     - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
       propertyPath: m_Name
       value: Gas_Platform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8792,6 +9043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8879,7 +9134,7 @@ GameObject:
   - component: {fileID: 1329397923}
   - component: {fileID: 1328170995}
   - component: {fileID: 1332726049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8973,7 +9228,7 @@ GameObject:
   - component: {fileID: 1333385955}
   - component: {fileID: 1333385954}
   - component: {fileID: 1333385953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9083,7 +9338,7 @@ GameObject:
   - component: {fileID: 1385474174}
   - component: {fileID: 1385474173}
   - component: {fileID: 1385474172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9228,6 +9483,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9583,7 +9842,7 @@ GameObject:
   - component: {fileID: 1463706075}
   - component: {fileID: 1463706074}
   - component: {fileID: 1463706073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9693,7 +9952,7 @@ GameObject:
   - component: {fileID: 1472341018}
   - component: {fileID: 1472341017}
   - component: {fileID: 1472341016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9867,6 +10126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -9941,7 +10204,7 @@ GameObject:
   - component: {fileID: 1517482375}
   - component: {fileID: 1517482374}
   - component: {fileID: 1517482373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10050,7 +10313,7 @@ GameObject:
   - component: {fileID: 1526160407}
   - component: {fileID: 1526160406}
   - component: {fileID: 1526160405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10349,6 +10612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10371,7 +10638,7 @@ GameObject:
   - component: {fileID: 1563724556}
   - component: {fileID: 1563724555}
   - component: {fileID: 1563724554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10480,7 +10747,7 @@ GameObject:
   - component: {fileID: 1578586270}
   - component: {fileID: 1578586269}
   - component: {fileID: 1578586268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11275,7 +11542,7 @@ GameObject:
   - component: {fileID: 1648640434}
   - component: {fileID: 1648640433}
   - component: {fileID: 1648640432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11384,7 +11651,7 @@ GameObject:
   - component: {fileID: 1667551241}
   - component: {fileID: 1667551240}
   - component: {fileID: 1667551239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11494,6 +11761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Jump
       objectReference: {fileID: 0}
+    - target: {fileID: 174070, guid: d995f875a84ca0f4c952dd644d6dbd0e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 436152, guid: d995f875a84ca0f4c952dd644d6dbd0e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -11563,7 +11834,7 @@ GameObject:
   - component: {fileID: 1685239941}
   - component: {fileID: 1685239940}
   - component: {fileID: 1685239939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11672,6 +11943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 104.89
@@ -11734,7 +12009,7 @@ GameObject:
   - component: {fileID: 1695890530}
   - component: {fileID: 1695890529}
   - component: {fileID: 1695890528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11843,7 +12118,7 @@ GameObject:
   - component: {fileID: 1725354016}
   - component: {fileID: 1725354015}
   - component: {fileID: 1725354014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12006,6 +12281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12103,7 +12382,7 @@ GameObject:
   - component: {fileID: 1760645461}
   - component: {fileID: 1760645460}
   - component: {fileID: 1760645459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12289,7 +12568,7 @@ GameObject:
   - component: {fileID: 1772928885}
   - component: {fileID: 1772928884}
   - component: {fileID: 1772928883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12398,6 +12677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -126.9
@@ -12460,7 +12743,7 @@ GameObject:
   - component: {fileID: 1777699811}
   - component: {fileID: 1777699810}
   - component: {fileID: 1777699809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12779,6 +13062,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805392225}
   m_CullTransparentMesh: 1
+--- !u!1001 &1833536735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2642492506251403113, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_Name
+      value: Mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50.840904
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451961026014037459, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572902077872796344, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: amplitude
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572902077872796344, guid: a0802094514752845bf0a6ec537594d8, type: 3}
+      propertyPath: frequency
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a0802094514752845bf0a6ec537594d8, type: 3}
 --- !u!1 &1864001561
 GameObject:
   m_ObjectHideFlags: 0
@@ -13045,6 +13393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 178.44
@@ -13305,6 +13657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -145.83
@@ -13366,6 +13722,10 @@ PrefabInstance:
     - target: {fileID: 101490, guid: 1b5a40444f59ff64997f9b2966f28a54, type: 3}
       propertyPath: m_Name
       value: Road Straight 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 101490, guid: 1b5a40444f59ff64997f9b2966f28a54, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 403978, guid: 1b5a40444f59ff64997f9b2966f28a54, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13529,8 +13889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383033c3282cb7d458510d8ab653368c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentFuel: 200
-  maxFuel: 200
+  currentFuel: 75
+  maxFuel: 75
   fuelDisplay: {fileID: 1455551961}
   fuelslider: {fileID: 303830532}
   redOverlay: {fileID: 1325370203}
@@ -13716,7 +14076,7 @@ GameObject:
   - component: {fileID: 1980149282}
   - component: {fileID: 1980149281}
   - component: {fileID: 1980149280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13877,6 +14237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13974,7 +14338,7 @@ GameObject:
   - component: {fileID: 2001890226}
   - component: {fileID: 2001890225}
   - component: {fileID: 2001890224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14135,6 +14499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14157,7 +14525,7 @@ GameObject:
   - component: {fileID: 2017522062}
   - component: {fileID: 2017522061}
   - component: {fileID: 2017522060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14256,6 +14624,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017522058}
   m_Mesh: {fileID: 4300000, guid: 23337dac036abd34499f9f5131a19858, type: 3}
+--- !u!1 &2038211529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038211530}
+  m_Layer: 0
+  m_Name: GameObject (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2038211530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038211529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7372774, y: 0, z: 0, w: 0.67559016}
+  m_LocalPosition: {x: -0.0004, y: 0.00182, z: -0.02329}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600039446}
+  m_LocalEulerAnglesHint: {x: 95, y: 0, z: 0}
 --- !u!1 &2039021630
 GameObject:
   m_ObjectHideFlags: 0
@@ -14268,7 +14667,7 @@ GameObject:
   - component: {fileID: 2039021634}
   - component: {fileID: 2039021633}
   - component: {fileID: 2039021632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14430,6 +14829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9032371211170668082, guid: 2b66473d7819ba54a9349b2428918a62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14588,7 +14991,7 @@ GameObject:
   - component: {fileID: 2076698037}
   - component: {fileID: 2076698036}
   - component: {fileID: 2076698035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groupsingleroad (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14698,7 +15101,7 @@ GameObject:
   - component: {fileID: 2080882349}
   - component: {fileID: 2080882348}
   - component: {fileID: 2080882347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14812,7 +15215,7 @@ GameObject:
   - component: {fileID: 2081526731}
   - component: {fileID: 2081526730}
   - component: {fileID: 2081526729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14921,7 +15324,7 @@ GameObject:
   - component: {fileID: 2089031459}
   - component: {fileID: 2089031458}
   - component: {fileID: 2089031457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15031,6 +15434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road S-Curve
       objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
       value: 178.46
@@ -15093,7 +15500,7 @@ GameObject:
   - component: {fileID: 2107274560}
   - component: {fileID: 2107274559}
   - component: {fileID: 2107274558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Lift Highway (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15653,7 +16060,7 @@ GameObject:
   - component: {fileID: 5185061271676989285}
   - component: {fileID: 5185061271676357421}
   - component: {fileID: 5185061271671776293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15818,7 +16225,7 @@ GameObject:
   - component: {fileID: 6579561208099503814}
   - component: {fileID: 6579561208098282126}
   - component: {fileID: 6579561208102614406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15949,7 +16356,7 @@ GameObject:
   - component: {fileID: 7337429205735266041}
   - component: {fileID: 7337429205736223409}
   - component: {fileID: 7337429205732154809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16075,7 +16482,7 @@ GameObject:
   - component: {fileID: 7781830573925117141}
   - component: {fileID: 7781830573929169885}
   - component: {fileID: 7781830573929169886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road Straight 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16212,3 +16619,4 @@ SceneRoots:
   - {fileID: 1325370204}
   - {fileID: 5714698313658570305}
   - {fileID: 1087982871}
+  - {fileID: 1833536735}
