@@ -1242,8 +1242,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 200d30da32695ca4eb32d8893203a2d6, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e7f42fe7a302f1e428e2c1b4db6b49f9, type: 3}
-  m_Resource: {fileID: 8300000, guid: e7f42fe7a302f1e428e2c1b4db6b49f9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 11fab057d529bce43ad12059f4454b14, type: 3}
+  m_Resource: {fileID: 8300000, guid: 11fab057d529bce43ad12059f4454b14, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bubble of The Deep Space
+  m_text: Bubbles of The Deep Space
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
   m_sharedMaterial: {fileID: -2545327717505549431, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
