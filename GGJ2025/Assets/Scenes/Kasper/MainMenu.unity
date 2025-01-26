@@ -2796,7 +2796,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bubbles of The Deep Space
+  m_text: Shellbound
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
   m_sharedMaterial: {fileID: -2545327717505549431, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
@@ -4257,7 +4257,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -65, y: 238}
-  m_SizeDelta: {x: 1170, y: 199.6}
+  m_SizeDelta: {x: 628, y: 199.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593537865
 MonoBehaviour:
