@@ -235,17 +235,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flame
       objectReference: {fileID: 0}
+    - target: {fileID: 2991946766895762004, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
+      propertyPath: SizeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991946766895762004, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0028571433
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.002857143
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0028571433
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalPosition.x
@@ -257,7 +265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.08774274
+      value: 0.08635
       objectReference: {fileID: 0}
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalRotation.w
@@ -286,6 +294,18 @@ PrefabInstance:
     - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759868240557216427, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842083960268836907, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 7842083960268836907, guid: e59ad527ecb68fa49b84552e4cd73210, type: 3}
+      propertyPath: m_RenderMode
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
