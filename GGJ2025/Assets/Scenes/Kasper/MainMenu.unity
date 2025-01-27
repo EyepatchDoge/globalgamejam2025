@@ -3187,8 +3187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 358.8209, y: 88.62689}
-  m_SizeDelta: {x: 717.6418, y: 177.2536}
+  m_AnchoredPosition: {x: 373.79883, y: 88.6269}
+  m_SizeDelta: {x: 747.5977, y: 177.2536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212162637
 MonoBehaviour:
@@ -3210,7 +3210,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2665Special Thanks to Rahul Poundarik\u2665"
+  m_text: "Special Thanks to Rahul Poundarik \nfor programming asstance and the \nbubble
+    shader"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
   m_sharedMaterial: {fileID: -2545327717505549431, guid: 4b97fbc56f485444d84b8384f49361b8, type: 2}
@@ -3219,8 +3220,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4290314495
+  m_fontColor: {r: 1, g: 0, b: 0.7267132, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3237,8 +3238,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.09
-  m_fontSizeBase: 59.09
+  m_fontSize: 44.11
+  m_fontSizeBase: 44.11
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

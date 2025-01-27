@@ -60,7 +60,7 @@ public class PlayerShip : MonoBehaviour
     {
         await Task.Delay(1000);
         isReady = true;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         if (postProcessingVolume.profile.TryGet(out ChromaticAberration chromaticAberration))
         {
