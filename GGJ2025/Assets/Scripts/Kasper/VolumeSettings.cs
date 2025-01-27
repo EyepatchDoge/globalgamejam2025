@@ -4,44 +4,58 @@ using UnityEngine.UI;
 
 public class VolumeSettings : MonoBehaviour
 {
-    [SerializeField] private AudioMixer myMixer;
+    [SerializeField] private AudioMixer musicMixer;
+    [SerializeField] private AudioMixer SFXMixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;
 
-    public void Start()
+    private void Start()
     {
-        if (PlayerPrefs.HasKey("musicVolume"))
+        // Check if first-time launch and initialize defaults
+        if (!PlayerPrefs.HasKey("musicVolume"))
         {
-            LoadVolume();
+            PlayerPrefs.SetFloat("musicVolume", 0.5f);
         }
-        else
+        if (!PlayerPrefs.HasKey("SFXVolume"))
         {
-            SetMusicVolume();
-            SetSFXVolume();
+            PlayerPrefs.SetFloat("SFXVolume", 0.5f);
         }
+
+        // Ensure PlayerPrefs are saved
+        PlayerPrefs.Save();
+
+        // Load and apply saved volumes
+        LoadVolume();
     }
 
     public void SetMusicVolume()
     {
         float volume = musicSlider.value;
-        myMixer.SetFloat("music", Mathf.Log10(volume) * 20);
+        musicMixer.SetFloat("music", Mathf.Log10(Mathf.Max(volume, 0.0001f)) * 20); // Prevent log(0)
         PlayerPrefs.SetFloat("musicVolume", volume);
-
+        PlayerPrefs.Save();
     }
 
     public void SetSFXVolume()
     {
         float volume = SFXSlider.value;
-        myMixer.SetFloat("sfx", Mathf.Log10(volume) * 20);
+        SFXMixer.SetFloat("sfx", Mathf.Log10(Mathf.Max(volume, 0.0001f)) * 20);
         PlayerPrefs.SetFloat("SFXVolume", volume);
-
+        PlayerPrefs.Save();
     }
 
     public void LoadVolume()
     {
-        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
-        SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
-        SetMusicVolume();
-        SetSFXVolume();
+        // Get saved values
+        float musicVolume = PlayerPrefs.GetFloat("musicVolume");
+        float sfxVolume = PlayerPrefs.GetFloat("SFXVolume");
+
+        // Update UI sliders
+        musicSlider.value = musicVolume;
+        SFXSlider.value = sfxVolume;
+
+        // Apply values to AudioMixers
+        musicMixer.SetFloat("music", Mathf.Log10(Mathf.Max(musicVolume, 0.0001f)) * 20);
+        SFXMixer.SetFloat("sfx", Mathf.Log10(Mathf.Max(sfxVolume, 0.0001f)) * 20);
     }
 }

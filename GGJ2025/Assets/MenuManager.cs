@@ -3,17 +3,13 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
 
-    public VolumeSettings musicVolumeSettings;
-    public VolumeSettings SFXVolumeSettings;
+    public VolumeSettings volumeSettings;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        musicVolumeSettings.LoadVolume();
-        musicVolumeSettings.SetMusicVolume();
-        musicVolumeSettings.SetSFXVolume();
+        volumeSettings.LoadVolume();
+        volumeSettings.SetMusicVolume();
+        volumeSettings.SetSFXVolume();
 
-        SFXVolumeSettings.LoadVolume();
-        SFXVolumeSettings.SetMusicVolume();
-        SFXVolumeSettings.SetSFXVolume();
     }
 }

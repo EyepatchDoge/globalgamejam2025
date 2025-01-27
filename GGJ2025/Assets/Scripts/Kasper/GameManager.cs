@@ -7,32 +7,32 @@ public class GameManager : MonoBehaviour
 
     public GameObject pausePanel;
     public GameObject controlsTab;
-    public VolumeSettings musicVolumeSettings;
-    public VolumeSettings SFXVolumeSettings;
+    public VolumeSettings volumeSettings;
+    public bool seenControlPanel;
+
 
     #endregion
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
-        musicVolumeSettings.LoadVolume();
-        musicVolumeSettings.SetMusicVolume();
-        musicVolumeSettings.SetSFXVolume();
+        volumeSettings.LoadVolume();
+        volumeSettings.SetMusicVolume();
+        volumeSettings.SetSFXVolume();
 
-        SFXVolumeSettings.LoadVolume();
-        SFXVolumeSettings.SetMusicVolume();
-        SFXVolumeSettings.SetSFXVolume();
 
         controlsTab.SetActive(true);
 
         Time.timeScale = 0;
         CursorOn();
+
+        seenControlPanel = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P) && seenControlPanel== true)
         {
             Time.timeScale = 0;
             CursorOn();
@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
         controlsTab.SetActive(false);
         CursorOff();
         ResumeGame();
+        seenControlPanel = true;
     }
 
     public void CursorOn()

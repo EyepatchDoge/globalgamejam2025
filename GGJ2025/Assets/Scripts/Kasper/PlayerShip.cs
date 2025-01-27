@@ -56,10 +56,9 @@ public class PlayerShip : MonoBehaviour
         shipRB.inertiaTensor = new Vector3(1, 1, 1) * 5f; // Adjust rotational inertia
     }
 
-    private async void Start()
+    private void Start()
     {
-        await Task.Delay(1000);
-        isReady = true;
+        Invoke(nameof(BecomeReady), 1f);
         //Cursor.lockState = CursorLockMode.Locked;
 
         if (postProcessingVolume.profile.TryGet(out ChromaticAberration chromaticAberration))
@@ -70,6 +69,10 @@ public class PlayerShip : MonoBehaviour
         {
             Debug.Log("Missing post-processing effect.");
         }
+    }
+    public void BecomeReady()
+    {
+        isReady = true;
     }
 
     void Update()
