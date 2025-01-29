@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4289f30733584d9f82725b2434edbea
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/ThirdPartyNotices.txt
+  uploadId: 386423

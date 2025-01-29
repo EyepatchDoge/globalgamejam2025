@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f739410aaa44d4fbca15e7fee5842e50
+timeCreated: 1457362432
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusLua/Trigger/Trigger.unity
+  uploadId: 386423

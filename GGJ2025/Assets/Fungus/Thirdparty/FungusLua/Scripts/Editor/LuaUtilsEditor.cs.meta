@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2e8bbf4afc9f447ccb83004b8bbe3e1a
+timeCreated: 1459521262
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaUtilsEditor.cs
+  uploadId: 386423

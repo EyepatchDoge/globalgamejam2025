@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93d0684591bc1c14dbad2b7dd9f454bb
+timeCreated: 1500106840
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/MonoBehEvents/PhysicsInteraction.unity
+  uploadId: 386423

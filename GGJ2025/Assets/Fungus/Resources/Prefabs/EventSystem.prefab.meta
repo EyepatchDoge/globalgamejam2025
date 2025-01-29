@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6ba8287b46c1545a789e1b569cad35eb
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/EventSystem.prefab
+  uploadId: 386423

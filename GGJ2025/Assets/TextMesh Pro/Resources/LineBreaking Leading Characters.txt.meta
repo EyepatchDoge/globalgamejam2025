@@ -6,3 +6,10 @@ TextScriptImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  uploadId: 386423

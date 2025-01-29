@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0c2b90c058ff43f4a56a266d4fa721b
+timeCreated: 1455234100
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Resources/Prefabs/LuaBindings.prefab
+  uploadId: 386423

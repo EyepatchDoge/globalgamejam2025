@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2d71b9f991e4b24ab013aa91cd49100
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FirstPerson/Visuals/Google Poly/Lock/materials.mtl
+  uploadId: 386423

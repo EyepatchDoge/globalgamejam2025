@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 8a005a9e0713f4cc1b5ad29fb07657d3
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/SayDialog.prefab
+  uploadId: 386423

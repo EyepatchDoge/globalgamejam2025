@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ffbd0831d997545eab75c364da082c1b
+timeCreated: 1428580452
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/Localization.prefab
+  uploadId: 386423

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2112bec536a5554cac5490c6579a0a4
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Variables/GlobalCollection.unity
+  uploadId: 386423

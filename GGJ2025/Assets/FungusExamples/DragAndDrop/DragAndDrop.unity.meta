@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 3cf236489696f4df5b4c21e578e17045
+DefaultImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/DragAndDrop/DragAndDrop.unity
+  uploadId: 386423

@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  uploadId: 386423

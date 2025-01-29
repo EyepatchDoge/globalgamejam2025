@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 29b65a983faf39e4db7e25a77610319f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/Collection/ColliderCollection.cs
+  uploadId: 386423

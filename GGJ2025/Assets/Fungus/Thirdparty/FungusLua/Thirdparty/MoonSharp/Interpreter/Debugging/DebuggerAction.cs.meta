@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0e8c0efc458574d55b100345b94437a4
+timeCreated: 1475786653
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Debugging/DebuggerAction.cs
+  uploadId: 386423

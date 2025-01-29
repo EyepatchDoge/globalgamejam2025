@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c23faba06619da442a984c0c71a87df4
+timeCreated: 1500112113
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Collision2D.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46af98f4c7e084a5a96eb982e7271174
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/StopTweens.cs
+  uploadId: 386423

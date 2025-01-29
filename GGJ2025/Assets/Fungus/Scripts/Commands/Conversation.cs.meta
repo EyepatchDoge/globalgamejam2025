@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f608b8c9fb3044200aac956492d8d586
+timeCreated: 1469542178
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Conversation.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56e461aab09c846b6a6ac22f1514516c
+timeCreated: 1453725792
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Integrations/Spine/Readme.txt
+  uploadId: 386423

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: db36b7852b6f9b54e8d797861d0c5560
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FirstPerson/Scripts/LookingAtDoor.cs
+  uploadId: 386423

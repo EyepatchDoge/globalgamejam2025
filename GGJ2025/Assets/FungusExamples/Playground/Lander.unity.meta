@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4207881a675c4142bc7e463dde8a314
+timeCreated: 1504241053
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Playground/Lander.unity
+  uploadId: 386423

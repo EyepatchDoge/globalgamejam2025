@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3aec7f0c484f05748a734082abc73f7f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/PlayMode/FungusPlayModeTest.cs
+  uploadId: 386423

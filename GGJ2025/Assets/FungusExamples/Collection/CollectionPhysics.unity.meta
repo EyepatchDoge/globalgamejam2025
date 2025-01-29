@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 90f776c055f4f754ca7cb96fc41e5c9e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Collection/CollectionPhysics.unity
+  uploadId: 386423

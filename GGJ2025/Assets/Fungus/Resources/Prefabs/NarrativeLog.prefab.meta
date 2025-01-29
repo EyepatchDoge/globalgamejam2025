@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bffd475e4bfb82f49810ceafe8d17b78
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/NarrativeLog.prefab
+  uploadId: 386423

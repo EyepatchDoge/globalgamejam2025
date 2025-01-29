@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b382917d791cc405f9a6bfdb5afed7a8
+timeCreated: 1473692355
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Scripts/Interfaces/IStringSubstituter.cs
+  uploadId: 386423

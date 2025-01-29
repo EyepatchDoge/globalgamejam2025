@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 79f9520ae0b21494caa8f8bc97a2db9d
+timeCreated: 1439307700
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/InvokeMethodEditor.cs
+  uploadId: 386423

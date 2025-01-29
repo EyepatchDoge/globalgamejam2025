@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 335e04fbdd5260043abb299a991dcbe8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Components/CustomTag.cs
+  uploadId: 386423

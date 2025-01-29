@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5942d3ed820e745b2beca47228bac126
+timeCreated: 1441987431
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/EventHandlers/EndEdit.cs
+  uploadId: 386423

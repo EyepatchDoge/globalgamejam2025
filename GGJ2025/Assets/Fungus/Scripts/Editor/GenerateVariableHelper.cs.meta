@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1e036e4e5a3dbd4fa3533a2c7ea0d0f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/GenerateVariableHelper.cs
+  uploadId: 386423

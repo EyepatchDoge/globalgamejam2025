@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3e7a2be9924b35c4eb6853121a323026
+timeCreated: 1500883183
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/TransformChanged.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b30a6fae3a8a24fa097a262570f519ce
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/EventHandlers/DragCancelled.cs
+  uploadId: 386423

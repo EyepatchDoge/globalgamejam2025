@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f3ca14d309b49483197af5d5cc0e61de
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/JumpingPrax/Animations/GreenAlien.controller
+  uploadId: 386423

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0c1b20abafdf15d4cbb15a2d4fef2a97
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/Usfxr/Editor/Fungus.UsfxrEditor.asmdef
+  uploadId: 386423

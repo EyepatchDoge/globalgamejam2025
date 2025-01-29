@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6f174e740b5040c68466fb971c4cec2
+timeCreated: 1462775608
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Resources/Prefabs/InfoText.prefab
+  uploadId: 386423

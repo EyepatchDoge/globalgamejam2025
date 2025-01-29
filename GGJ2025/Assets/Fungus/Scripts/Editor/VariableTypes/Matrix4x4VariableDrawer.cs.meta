@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 15e98b43732d6564e87e13ccc2490b05
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/VariableTypes/Matrix4x4VariableDrawer.cs
+  uploadId: 386423

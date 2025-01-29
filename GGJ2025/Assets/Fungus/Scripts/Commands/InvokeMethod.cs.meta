@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 688e35811870d403f9e2b1ab2a699d98
+timeCreated: 1439307694
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/InvokeMethod.cs
+  uploadId: 386423

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8045e06b2be86d540b0d6d1b37d5e145
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/Editor/Resources/VarSetTest.prefab
+  uploadId: 386423

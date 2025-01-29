@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d6bacc8888852c94bab5c3b36cdf1574
+timeCreated: 1483696929
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Utils/EventDispatcher.cs
+  uploadId: 386423

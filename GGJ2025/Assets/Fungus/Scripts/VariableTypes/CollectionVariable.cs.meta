@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4511d925e22af8c4a85a568153258f84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/CollectionVariable.cs
+  uploadId: 386423

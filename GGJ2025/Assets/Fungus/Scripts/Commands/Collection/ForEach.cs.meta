@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1ce547d5384ce3a41b7142cab8ab41dd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Collection/ForEach.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a55277fbf4ad84d2f808bcfc54287623
+timeCreated: 1431605464
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusTown/Readme.txt
+  uploadId: 386423

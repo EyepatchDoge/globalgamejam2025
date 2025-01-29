@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f6478b25a400c642b2dee75f022ab12
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Components/Stage.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce35e97bd56b1944d8592fa0e400a240
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FirstPerson/Prefabs/Button.prefab
+  uploadId: 386423

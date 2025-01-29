@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1c0d03b6eb503400fab7982a48c8a93a
+timeCreated: 1445960955
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/ReadTextFile.cs
+  uploadId: 386423

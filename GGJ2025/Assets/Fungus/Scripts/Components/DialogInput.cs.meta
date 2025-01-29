@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 43b85556abd314f3f870c18c013fdcef
+timeCreated: 1439996546
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Components/DialogInput.cs
+  uploadId: 386423

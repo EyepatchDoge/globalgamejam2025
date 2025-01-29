@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 303f39102fa585240b75ba39909c0420
+timeCreated: 1517559039
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/Collision2DVariable.cs
+  uploadId: 386423

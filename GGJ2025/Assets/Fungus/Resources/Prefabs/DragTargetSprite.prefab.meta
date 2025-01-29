@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 4442b79fcbcbb4aac97f42d6dc3d4e0b
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/DragTargetSprite.prefab
+  uploadId: 386423

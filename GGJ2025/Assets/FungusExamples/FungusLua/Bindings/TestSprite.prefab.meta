@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78100db42249d407787823d1e5719214
+timeCreated: 1462774531
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusLua/Bindings/TestSprite.prefab
+  uploadId: 386423

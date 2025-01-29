@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 613b99a82fe95405db46062e1c071434
+timeCreated: 1441210481
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/FungusLogo.prefab
+  uploadId: 386423

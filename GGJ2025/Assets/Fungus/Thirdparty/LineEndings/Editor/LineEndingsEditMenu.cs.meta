@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 71f72aa69e779c946beeee31eb72d4d3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/LineEndings/Editor/LineEndingsEditMenu.cs
+  uploadId: 386423

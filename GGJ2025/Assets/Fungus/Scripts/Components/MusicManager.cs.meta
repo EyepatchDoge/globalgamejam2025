@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5ff9b322bf3e407fb29148a2e50d076
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Components/MusicManager.cs
+  uploadId: 386423

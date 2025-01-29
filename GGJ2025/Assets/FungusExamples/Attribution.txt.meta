@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f35e49c61f66a4ac3a13a2f6e1424132
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Attribution.txt
+  uploadId: 386423

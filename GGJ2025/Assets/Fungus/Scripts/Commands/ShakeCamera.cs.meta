@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 616cd37e21c7645c58a89edf5abee56f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/ShakeCamera.cs
+  uploadId: 386423

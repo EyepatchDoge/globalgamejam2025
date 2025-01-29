@@ -1,0 +1,9 @@
+fileFormatVersion: 1
+guid: 6c5a625d29393ed4da8d9150a629fb35
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/Editor/JSONChecker.cs
+  uploadId: 386423

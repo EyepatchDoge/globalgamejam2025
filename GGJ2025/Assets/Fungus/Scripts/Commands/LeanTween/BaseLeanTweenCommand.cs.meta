@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 22379d19093ceb34098232d6f1b848a0
+timeCreated: 1499564933
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/LeanTween/BaseLeanTweenCommand.cs
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea4da378c47144a86979765ac5e9690c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Label.cs
+  uploadId: 386423

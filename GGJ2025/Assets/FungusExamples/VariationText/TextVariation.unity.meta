@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7472e7497ac4ef84b888b1393faf2a30
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/VariationText/TextVariation.unity
+  uploadId: 386423

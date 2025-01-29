@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3ff412ad89846a47a70a620a222cbf8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/PlayUsfxrSound.cs
+  uploadId: 386423

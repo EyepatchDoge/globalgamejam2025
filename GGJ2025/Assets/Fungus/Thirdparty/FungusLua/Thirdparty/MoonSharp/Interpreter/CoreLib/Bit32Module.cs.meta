@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c71b14e2cd41a4f70a45ea70cab3e2c7
+timeCreated: 1475786655
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/CoreLib/Bit32Module.cs
+  uploadId: 386423

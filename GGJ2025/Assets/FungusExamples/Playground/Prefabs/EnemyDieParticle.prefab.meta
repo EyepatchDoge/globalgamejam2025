@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e984fd5d6e5532849888a6e97dde6888
+timeCreated: 1503829803
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Playground/Prefabs/EnemyDieParticle.prefab
+  uploadId: 386423

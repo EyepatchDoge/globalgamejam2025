@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ade6b5a778f23e74ab2c1b5837bb8199
+timeCreated: 1507723277
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Variables/GlobalVar.unity
+  uploadId: 386423

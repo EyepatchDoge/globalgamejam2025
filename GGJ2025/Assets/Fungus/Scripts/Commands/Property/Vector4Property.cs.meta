@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 218837ae2b5d9ad4cb51c47575ce1ffc
+timeCreated: 1517559329
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Property/Vector4Property.cs
+  uploadId: 386423

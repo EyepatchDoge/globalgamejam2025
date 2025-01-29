@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 66aa67af332e348cbb7dd54b3d5d6433
+timeCreated: 1475786654
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/AsyncExtensions.cs
+  uploadId: 386423

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: da8de59f5960f5c4b9d61002cc912b37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Collection/Physics2DCast.cs
+  uploadId: 386423

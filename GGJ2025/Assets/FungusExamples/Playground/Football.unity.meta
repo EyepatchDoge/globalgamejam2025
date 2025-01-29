@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 302099b32ccc3ad458788aed267de1ac
+timeCreated: 1504093679
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Playground/Football.unity
+  uploadId: 386423

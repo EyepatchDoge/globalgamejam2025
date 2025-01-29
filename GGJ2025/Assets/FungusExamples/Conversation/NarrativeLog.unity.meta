@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed628f8c83f9cc04d98117ef6521362e
+timeCreated: 1487954686
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Conversation/NarrativeLog.unity
+  uploadId: 386423

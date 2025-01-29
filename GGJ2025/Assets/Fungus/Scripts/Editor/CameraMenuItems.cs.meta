@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51343e36134df4735b2d56529127c93d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/CameraMenuItems.cs
+  uploadId: 386423

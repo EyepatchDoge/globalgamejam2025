@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68356f51e7c115448be4b12e1d73df06
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/Fungus.FungusLuaEditor.asmdef
+  uploadId: 386423

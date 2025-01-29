@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec85aa978916a10458cfe966a2af756a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/Vec3_property_set.unity
+  uploadId: 386423

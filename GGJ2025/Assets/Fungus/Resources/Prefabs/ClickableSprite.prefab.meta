@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0e6bcf37a2876432fa58eff8888bf177
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/ClickableSprite.prefab
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01ba5446fffc24f34995fb9313c4f454
+timeCreated: 1462813523
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusLua/Flowchart/ExecuteLua.unity
+  uploadId: 386423

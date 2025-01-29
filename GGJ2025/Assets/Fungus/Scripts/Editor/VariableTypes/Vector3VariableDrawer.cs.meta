@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b1a5da98543a7354d872bd85ea6467e9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/VariableTypes/Vector3VariableDrawer.cs
+  uploadId: 386423

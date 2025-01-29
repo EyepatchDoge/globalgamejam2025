@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec422cd568a9c4a31ad7c36d0572b9da
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Say.cs
+  uploadId: 386423

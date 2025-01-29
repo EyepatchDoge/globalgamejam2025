@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 831c208af3cccf24b80cc6f3768919bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/PlayAmbianceSound.cs
+  uploadId: 386423

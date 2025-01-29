@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93fddea8208764a2dbb189cc238aed40
+timeCreated: 1459937246
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Resources/Types/FungusTypes.txt
+  uploadId: 386423

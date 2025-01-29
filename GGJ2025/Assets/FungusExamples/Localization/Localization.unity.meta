@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e91cd95b55b8d4f9fb1461ead43b5b22
+timeCreated: 1428681796
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Localization/Localization.unity
+  uploadId: 386423

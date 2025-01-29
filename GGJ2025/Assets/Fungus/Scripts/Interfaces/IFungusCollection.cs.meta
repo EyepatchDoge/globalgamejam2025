@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 25858096aa47be24c92616be98863f8e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Interfaces/IFungusCollection.cs
+  uploadId: 386423

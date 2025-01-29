@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f96a570dd766d0042b00f9ec1160738e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/WritingSpeedTest.unity
+  uploadId: 386423

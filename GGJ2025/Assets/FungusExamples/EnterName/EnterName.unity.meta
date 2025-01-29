@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1007fbdf3eb3244088015ada3e0bfaa4
+timeCreated: 1442413549
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/EnterName/EnterName.unity
+  uploadId: 386423

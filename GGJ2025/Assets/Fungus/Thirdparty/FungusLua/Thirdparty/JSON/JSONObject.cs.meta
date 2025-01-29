@@ -1,0 +1,9 @@
+fileFormatVersion: 1
+guid: f71819923b555d14ab64ae2044718de9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/JSONObject.cs
+  uploadId: 386423

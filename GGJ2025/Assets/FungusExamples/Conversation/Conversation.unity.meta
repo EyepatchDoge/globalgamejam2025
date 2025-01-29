@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9de98f03841042f6a139eccdfbfcadc
+timeCreated: 1469542890
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Conversation/Conversation.unity
+  uploadId: 386423

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34cf00d3f10a8f34783a2f8b914a0219
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/FungusEditor.asmdef
+  uploadId: 386423

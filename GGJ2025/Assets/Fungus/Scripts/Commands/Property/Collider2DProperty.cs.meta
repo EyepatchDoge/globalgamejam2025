@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c5d345b268622414c9bb53e05f4580ed
+timeCreated: 1517559095
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Property/Collider2DProperty.cs
+  uploadId: 386423

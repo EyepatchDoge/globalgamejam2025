@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca170c9b80637694daf36db2bbe0e31e
+timeCreated: 1502968157
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/Playground/Defender.unity
+  uploadId: 386423

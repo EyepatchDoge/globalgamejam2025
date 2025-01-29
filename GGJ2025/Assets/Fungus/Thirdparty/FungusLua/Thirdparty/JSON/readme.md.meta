@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db6abf22260f8db43bc7e785f129ce0b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/readme.md
+  uploadId: 386423

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4082ac7fed21c8f459d58bb3efda67fc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/VariableTypes/QuaternionVariableDrawer.cs
+  uploadId: 386423

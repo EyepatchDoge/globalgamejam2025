@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b63c363344a0bf94296a7280494813e3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/Editor/Resources/LoopTest.prefab
+  uploadId: 386423

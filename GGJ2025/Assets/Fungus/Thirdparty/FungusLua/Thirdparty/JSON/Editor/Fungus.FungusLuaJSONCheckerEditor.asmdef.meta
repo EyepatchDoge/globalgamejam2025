@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c368c7d787b2f7418e16e5079276def
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/Editor/Fungus.FungusLuaJSONCheckerEditor.asmdef
+  uploadId: 386423

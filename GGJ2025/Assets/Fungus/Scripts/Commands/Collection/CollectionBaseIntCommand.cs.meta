@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 328b7e125f24d5349be4fe583267ba1d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Collection/CollectionBaseIntCommand.cs
+  uploadId: 386423

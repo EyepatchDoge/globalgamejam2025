@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e6172f62580749419623b3b2c1098be
+timeCreated: 1462369710
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusLua/Bindings/CustomScriptExample.unity
+  uploadId: 386423

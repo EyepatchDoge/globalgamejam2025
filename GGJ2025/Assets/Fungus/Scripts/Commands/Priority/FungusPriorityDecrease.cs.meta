@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ebc295ba6aed8944fa3974a64f33cc42
+timeCreated: 1523926493
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Priority/FungusPriorityDecrease.cs
+  uploadId: 386423

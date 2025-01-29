@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8612e483167be3a409bf895395921ac2
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FirstPerson/Visuals/Google Poly/Button/CC-BY.txt
+  uploadId: 386423

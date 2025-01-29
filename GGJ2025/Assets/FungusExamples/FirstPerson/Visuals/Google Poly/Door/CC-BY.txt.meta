@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4c5db9fdd94abf4ba61a5fb0a9106c5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FirstPerson/Visuals/Google Poly/Door/CC-BY.txt
+  uploadId: 386423

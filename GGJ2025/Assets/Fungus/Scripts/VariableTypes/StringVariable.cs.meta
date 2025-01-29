@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4580f28dd8581476b810b38eea2f1316
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/StringVariable.cs
+  uploadId: 386423

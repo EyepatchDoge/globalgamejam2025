@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8eb81208378624d4ba13caaef30d2b62
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/TextureVariable.cs
+  uploadId: 386423

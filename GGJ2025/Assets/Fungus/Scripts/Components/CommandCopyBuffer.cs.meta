@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28859462f29464188bb29cc9f1f6e92c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Components/CommandCopyBuffer.cs
+  uploadId: 386423

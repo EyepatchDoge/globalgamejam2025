@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 243a94cf6d8dda84f8351f4289587571
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/NarrativeLogEntryDisplay.prefab
+  uploadId: 386423

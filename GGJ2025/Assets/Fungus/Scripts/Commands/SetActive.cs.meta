@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbd8c931f22994b9d90e2037fffaa770
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/SetActive.cs
+  uploadId: 386423

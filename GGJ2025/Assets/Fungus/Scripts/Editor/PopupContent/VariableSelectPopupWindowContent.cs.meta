@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 933b6fc31e5eac04ea3b2a1fa9a3b418
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/PopupContent/VariableSelectPopupWindowContent.cs
+  uploadId: 386423

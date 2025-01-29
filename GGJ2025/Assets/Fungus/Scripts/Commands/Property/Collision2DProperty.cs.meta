@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 8556e15e3a9145740815675ae531a7cd
+timeCreated: 1517559039
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Commands/Property/Collision2DProperty.cs
+  uploadId: 386423

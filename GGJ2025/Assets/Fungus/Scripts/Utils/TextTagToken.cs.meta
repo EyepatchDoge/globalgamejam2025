@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a1d7b8611768549fca12101bac0fe545
+timeCreated: 1473757164
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Utils/TextTagToken.cs
+  uploadId: 386423

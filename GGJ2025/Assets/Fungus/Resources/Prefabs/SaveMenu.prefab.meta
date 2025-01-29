@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd2b99773f3e0489aae9f9b5053ad360
+timeCreated: 1481298777
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/SaveMenu.prefab
+  uploadId: 386423

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0db93d8e5ca44ebf9286329393f03a8
+timeCreated: 1462812880
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusLua/Flowchart/Blocks.unity
+  uploadId: 386423

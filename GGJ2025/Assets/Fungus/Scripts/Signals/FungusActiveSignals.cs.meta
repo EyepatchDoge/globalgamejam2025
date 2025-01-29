@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fd542ada4b268ba49bcab2fd4d8e465e
+timeCreated: 1523173334
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Signals/FungusActiveSignals.cs
+  uploadId: 386423

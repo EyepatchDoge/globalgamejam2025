@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 0057f41f38d80eb42994d709097bab6c
+timeCreated: 1517559091
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/ColliderVariable.cs
+  uploadId: 386423

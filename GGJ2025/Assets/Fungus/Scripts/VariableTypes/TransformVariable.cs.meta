@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 633bea14077b44e19956e8113fbac7a4
+timeCreated: 1457893486
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/VariableTypes/TransformVariable.cs
+  uploadId: 386423

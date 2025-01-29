@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6691b047f10934720968e9f83cf13ebe
+timeCreated: 1431604608
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/FungusExamples/FungusTown/Materials/WhiteSmoke.mat
+  uploadId: 386423

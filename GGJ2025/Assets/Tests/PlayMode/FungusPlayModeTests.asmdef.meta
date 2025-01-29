@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2babc96bfd54444191259bf2d0a6377
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Tests/PlayMode/FungusPlayModeTests.asmdef
+  uploadId: 386423

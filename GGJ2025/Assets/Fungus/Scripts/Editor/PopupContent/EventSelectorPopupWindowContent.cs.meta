@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9ca5de337e96bf4c8a414c5c374d629
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/PopupContent/EventSelectorPopupWindowContent.cs
+  uploadId: 386423

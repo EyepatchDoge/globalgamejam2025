@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eae76c041b933476bbe9bdd4c3d80793
+timeCreated: 1483972230
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Resources/Prefabs/SaveData.prefab
+  uploadId: 386423

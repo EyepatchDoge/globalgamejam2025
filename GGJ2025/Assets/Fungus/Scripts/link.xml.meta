@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c1bf8b543d9c40e3b25689e4ff98681
+timeCreated: 1471295424
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/link.xml
+  uploadId: 386423

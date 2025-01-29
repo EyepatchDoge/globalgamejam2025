@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0444d16cc20de47878a9b392aea6a4a2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34184
+  packageName: Fungus
+  packageVersion: 3.13.4
+  assetPath: Assets/Fungus/Scripts/Editor/FlowchartEditor.cs
+  uploadId: 386423
